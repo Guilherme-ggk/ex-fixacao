@@ -542,10 +542,20 @@ namespace ConsoleApp1
 
             //Validação
 
-            if(nome != null)
+            static AddAtores()
             {
-                AddAtores.Add("Brad pitt");
+                if (nome != null)
+                {
+                    AddAtores.Add("Brad pitt");
+                }
+
+                if(nome < atores.Length)
+                {
+                    AddAtores.Add("Brad pitt");
+                }
             }
+
+            
             //validação caso sem querer vc defina uma lista ou algo como null
 
             //emcapsular é mais para a integridade do codigo e segurança dependendo do que vc for fazer para evitar erros
