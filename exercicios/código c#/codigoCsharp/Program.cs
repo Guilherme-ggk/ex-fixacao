@@ -8,9 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.InteropServices;
+using static System.Net.WebRequestMethods;
 
 namespace ConsoleApp1
 {
+    class Filme
+    {
+        public string nome;
+        public string ano;
+        public string diretor;
+    }
+    public Filme(string nome)
+    {
+        this.nome = nome;
+
+    }
+
     public class Program
     {
         [System.Serializable]
@@ -513,12 +527,38 @@ namespace ConsoleApp1
             Abstração é conseguir ver informações de dado tema para o projeto.
              */
 
+
+            //Construtores 
+
+            // um construtor é quase a mesma coisa que uma classe, nele vc pode definir objetos e guardar valores dentro deles
+
+
+
+            // Emcapsulamento
+
+            //static = deixa a linha estatica para usar em qualquer lugar do codigo
+            //public = deixa a linha public para qualquer lugar do projeto
+            //private = só vai aceitar dentro do seu escopo
+
+            //Validação
+
+            if(nome != null)
+            {
+                AddAtores.Add("Brad pitt");
+            }
+            //validação caso sem querer vc defina uma lista ou algo como null
+
+            //emcapsular é mais para a integridade do codigo e segurança dependendo do que vc for fazer para evitar erros
+
+
             Console.ReadLine();
 
 
 
 
         }
+
+      
 
         static void GerarProduto(int preco, string nome)
         {
