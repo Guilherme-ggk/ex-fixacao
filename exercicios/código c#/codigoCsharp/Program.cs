@@ -561,7 +561,50 @@ namespace ConsoleApp1
             //emcapsular é mais para a integridade do codigo e segurança dependendo do que vc for fazer para evitar erros
 
 
-            Console.ReadLine();
+
+            // Herança 
+
+            //  Para melhorar o desenvolvimento, criamos filhos que herdam caracteristicas dos pais. Por exemplo:
+
+            class Usuario
+        {
+            public string nome;
+            public string email;
+            public string senha;
+
+            public void Login()
+            {
+                Console.WriteLine("Logando...");
+            }
+
+            public void Exibir()
+            {
+                Console.WriteLine($"Nome: {nome}");
+                Console.WriteLine($"Email: {email}");
+                Console.WriteLine($"Senha: {senha}");
+            }
+        }
+
+        class Aluno : Usuario 
+        {
+
+            public string turno;
+            public string sala;
+        }
+
+        Aluno a = new Aluno();
+        a.nome = "Guilherme"
+        a.email = "30755@gmail.com"
+        a.senha = "30755"
+        Exibir();
+
+
+       
+
+
+
+
+        Console.ReadLine();
 
 
 
