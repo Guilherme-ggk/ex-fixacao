@@ -599,6 +599,20 @@ namespace ConsoleApp1
         Exibir();
 
 
+        // Protected - um meio de se trabalhar melhor com herança
+
+        Exemplo:
+
+
+            class Pai
+        {
+            public string nome;
+            public string email;
+            private string senha;  //Ela priva essa linha deixando ela acessivel só dentro da propria classe pai
+            protected string sala; // Ela priva a linhas mas deixa ela ser compartilhada com seus irmãos
+        }
+
+
        
 
 
