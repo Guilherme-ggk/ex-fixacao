@@ -18,11 +18,13 @@ namespace ConsoleApp1
         public string nome;
         public string ano;
         public string diretor;
-    }
-    public Filme(string nome)
-    {
-        this.nome = nome;
 
+        public Filme(string nome, string ano, string diretor)
+        {
+            this.nome = nome;
+            this.ano = ano;
+            this.diretor = diretor;
+        }
     }
 
     public class Program
@@ -610,10 +612,31 @@ namespace ConsoleApp1
             public string email;
             private string senha;  //Ela priva essa linha deixando ela acessivel só dentro da propria classe pai
             protected string sala; // Ela priva a linhas mas deixa ela ser compartilhada com seus irmãos
+
+            public Pai(string nome, string email)
+            {
+                this.nome = nome;
+                this.email = email;
+            }
         }
 
 
-       
+        class Aluno : Usuario
+        {
+
+            public string turno;
+            public string sala;
+
+
+            public filho(string nome, string email, string senha, string sala):base(string nome, string sala)
+            {
+
+            }
+        }
+
+
+
+
 
 
 
