@@ -630,7 +630,9 @@ namespace ConsoleApp1
 
             public filho(string nome, string email, string senha, string sala):base(string nome, string sala)
             {
-
+                    // cria-se primeiro o construtor dentro da classe pai e referencia ela com um novo
+                    // construtor aluno com os parametros da classe e depois
+                    // com base para os parametros do construtor 
             }
         }
 
