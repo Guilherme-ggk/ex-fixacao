@@ -636,12 +636,26 @@ namespace ConsoleApp1
             }
         }
 
+        //Tabelas 
 
+        //usando a classe DataTable, DataColumn e DataRow, já consgigo criar uma tabela, que tbm pode converter para arquivos XML e XMLSchema
 
+        //exemplo:
 
+        DataTable tabela = new DataTable("Costumers");
+        DataColumn coluna1 = new DataColumn("coluna1");
+        DataColumn coluna2 = new DataColumn("coluna2");
 
+        tabela.Columns.Add(coluna1);
+        tabela.Columns.Add(coluna1);
 
+        DataRow linha1 = tabela.newRow();
+        linha1 ["coluna1"] = "valor1";
+        linha1 ["coluna2"] = "valor2";
+        tabela.Rows.Add(linha1);
 
+        tabela.Xml("tabela.XML");
+        tabela.XmlSchema("Tabela.Schema");
 
         Console.ReadLine();
 
