@@ -292,11 +292,11 @@ namespace ConsoleApp1
                 Console.WriteLine(palavras[c]);    
             }
 
-             for (int contador2 = palavras.Length-1; contador2 > 0; contador2--)
-                 {
+            for (int contador2 = palavras.Length-1; contador2 > 0; contador2--)
+                {
 
-                 Console.WriteLine(palavras[contador2]);
-             }
+                Console.WriteLine(palavras[contador2]);
+            }
 
             Produto faca = new Produto("Tramontina", 100f);
             Produto bola = new Produto("Champios", 200f);
@@ -315,33 +315,33 @@ namespace ConsoleApp1
             Console.WriteLine($"{clientes[0]} e {nome}");*/
 
             /* List<string> clientes = new List<string>();
-             clientes.Add("Guilherme");
-             clientes.Add("Henrique");
-             clientes.Add("Maximo");
-             clientes.Add("SANTOS");
-             clientes.Add("DE");
+            clientes.Add("Guilherme");
+            clientes.Add("Henrique");
+            clientes.Add("Maximo");
+            clientes.Add("SANTOS");
+            clientes.Add("DE");
 
-             clientes.Count();
-             Console.WriteLine(clientes.Count());
+            clientes.Count();
+            Console.WriteLine(clientes.Count());
 
-             foreach (string cliente in clientes)
-             {
-                 Console.WriteLine(cliente);
-             }
-             Console.WriteLine("========================");
-
-
-             Console.WriteLine("===========");
-             string busca = clientes.Find(cliente => cliente.Length > 4);
-
-             Console.WriteLine(busca);
-
-             Console.WriteLine("===========");
+            foreach (string cliente in clientes)
+            {
+                Console.WriteLine(cliente);
+            }
+            Console.WriteLine("========================");
 
 
-             Console.WriteLine("====================");
+            Console.WriteLine("===========");
+            string busca = clientes.Find(cliente => cliente.Length > 4);
 
-             Console.WriteLine("Filtrando com FindAll");
+            Console.WriteLine(busca);
+
+            Console.WriteLine("===========");
+
+
+            Console.WriteLine("====================");
+
+            Console.WriteLine("Filtrando com FindAll");
 
              List<string> filtragem =clientes.FindAll(cliente  => cliente.Length > 5);
 
@@ -362,10 +362,10 @@ namespace ConsoleApp1
 
              //Console.WriteLine(quantidadeRemove);
 
-             foreach (string cliente in clientes)
-             {
-                 Console.WriteLine(cliente);
-             }*/
+            foreach (string cliente in clientes)
+            {
+                Console.WriteLine(cliente);
+            }*/
 
 
             /*List<string> clientes = new List<string>();
@@ -420,15 +420,15 @@ namespace ConsoleApp1
             /* StreamWriter escritor = new StreamWriter("teste.txt");// desse modo ele imprime as linhas mas se caso apagar uma delas, elas somem junto
 
 
-             escritor.WriteLine("Curso de C#");
-             escritor.Close();
+            escritor.WriteLine("Curso de C#");
+            escritor.Close();
 
-             Console.WriteLine("Arquivo gerado");
+            Console.WriteLine("Arquivo gerado");
 
 
-             StreamWriter escritorr = File.AppendText("teste.txt");// toda vez que o codigo for executado, vai imprimir uma nova linha e guandando na memória
-             escritorr.WriteLine("Udemy");
-             escritorr.Close();*/
+            StreamWriter escritorr = File.AppendText("teste.txt");// toda vez que o codigo for executado, vai imprimir uma nova linha e guandando na memória
+            escritorr.WriteLine("Udemy");
+            escritorr.Close();*/
 
 
             // StreamReader leitor = new StreamReader("teste.txt");
@@ -494,10 +494,10 @@ namespace ConsoleApp1
             codificador.Serialize(stream, fruta);
 
             /* List<string> listadoarquivo = (List<String>)codificador.Deserialize(stream);
-             Produtu prod = (Produtu)codificador.Deserialize(stream);
+            Produtu prod = (Produtu)codificador.Deserialize(stream);
 
 
-             Console.WriteLine(prod.nome);
+            Console.WriteLine(prod.nome);
 
 
              stream.Close(); */
@@ -645,13 +645,7 @@ namespace ConsoleApp1
 
         Console.ReadLine();
 
-
-
-
         }
-
-      
-
         static void GerarProduto(int preco, string nome)
         {
             /*int precoAbs = Math.Abs(preco);
