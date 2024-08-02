@@ -124,21 +124,21 @@ namespace ConsoleApp1
             //Condicionais em C#
 
             /* Console.WriteLine("Digite sua idade");
-             int idade = int.Parse(Console.ReadLine());    
+            int idade = int.Parse(Console.ReadLine());    
 
-             if(idade >= 0 && idade <= 11)
-             {
-                 Console.WriteLine("Voçê é uma criança");
-             }else if(idade  >= 11 && idade <= 18)
-             {
-                 Console.WriteLine("Voçê é um adolescente");
-             }else if(idade >= 19 && idade <= 60)
-             {
-                 Console.WriteLine("Voçê é um adulto");
-             }else
-             {
-                 Console.WriteLine("Voçê é um idoso");
-             }*/
+            if(idade >= 0 && idade <= 11)
+            {
+            Console.WriteLine("Voçê é uma criança");
+            }else if(idade  >= 11 && idade <= 18)
+            {
+            Console.WriteLine("Voçê é um adolescente");
+            }else if(idade >= 19 && idade <= 60)
+            {
+                Console.WriteLine("Voçê é um adulto");
+            }else
+            {
+                Console.WriteLine("Voçê é um idoso");
+            }*/
 
 
             //Funçôes em C#
@@ -287,10 +287,10 @@ namespace ConsoleApp1
             }*/
 
             /* for(int c = 0;c < palavras.Length; c++)
-             {
-                 Console.WriteLine("rodou for");
-                 Console.WriteLine(palavras[c]);    
-             }
+            {
+                Console.WriteLine("rodou for");
+                Console.WriteLine(palavras[c]);    
+            }
 
              for (int contador2 = palavras.Length-1; contador2 > 0; contador2--)
                  {
