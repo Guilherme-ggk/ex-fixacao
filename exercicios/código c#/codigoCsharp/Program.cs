@@ -10,6 +10,7 @@ using System.Xml;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Runtime.InteropServices;
 using static System.Net.WebRequestMethods;
+using System.Data;
 
 namespace ConsoleApp1
 {
@@ -646,8 +647,8 @@ namespace ConsoleApp1
         DataColumn coluna1 = new DataColumn("coluna1");
         DataColumn coluna2 = new DataColumn("coluna2");
 
-        tabela.Columns.Add(coluna1);
-        tabela.Columns.Add(coluna1);
+        tabela.Columns.Add("coluna1");
+        tabela.Columns.Add("coluna2");
 
         DataRow linha1 = tabela.newRow();
         linha1 ["coluna1"] = "valor1";
@@ -656,6 +657,60 @@ namespace ConsoleApp1
 
         tabela.Xml("tabela.XML");
         tabela.XmlSchema("Tabela.Schema");
+
+        //Polimorfismo de Herança
+        //Guarda tipos diferentes em um só tipo
+        //como a classe aluno do tipo aluno e zelador dentro do tipo usuario, e mesmo assim serem chamados 
+
+         //Polimorfismo de sobrecarga
+         //duas funções com o mesmo nome dentro da classe, o que muda entre eles são os parametros
+         //assinatura do metodos com os parametros, para o c# o que vale nessas assinaturas é o tipo e a ordem
+
+            //exemplo:
+
+            static void Logar() //Logar(void) sem parametros
+        {
+            Console.WriteLine("Logando....");
+        }
+
+        static void Logar(string logandoSenha) // Logar(string)
+        {
+            Console.WriteLine("Login com senha...");
+        }
+
+        static void Logar(string email, string codigo) //Logar(string, string)
+        {
+            Console.WriteLine("Email e senha");
+        }
+
+        static void Logar(string email, int pin)// Logar(email, pin)
+        {
+            Console.WriteLine("Email, pin");
+        }
+
+        static void Logar(int pin, string email)// Logar(pin, email)
+        {
+            Console.WriteLine("pin, email");
+        }
+
+
+
+        //Polimorfismo de sobreposição
+        // Para sobrepor a classe pai ao filho, printando primeiro com o metodo base e override
+        //mais usado para criar bibliotecas, muito dificil algo para clientes finais, mais como alterações num projeto
+
+        //Exemplo:
+
+        static override void Exibir() // override = sobrepor
+        {
+            Console.WriteLine("Dados do aluno:");
+            base.Exibir();                          //base = chama a função dentro do pai
+            Console.WriteLine("Turno:" + turno);
+        }
+
+
+       
+           
 
         Console.ReadLine();
 
