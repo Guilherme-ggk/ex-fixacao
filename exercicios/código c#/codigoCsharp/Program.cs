@@ -11,6 +11,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Runtime.InteropServices;
 using static System.Net.WebRequestMethods;
 using System.Data;
+using System.ComponentModel.Design;
 
 namespace ConsoleApp1
 {
@@ -552,13 +553,13 @@ namespace ConsoleApp1
                     AddAtores.Add("Brad pitt");
                 }
 
-                if(nome < atores.Length)
+                if (nome < atores.Length)
                 {
                     AddAtores.Add("Brad pitt");
                 }
             }
 
-            
+
             //validação caso sem querer vc defina uma lista ou algo como null
 
             //emcapsular é mais para a integridade do codigo e segurança dependendo do que vc for fazer para evitar erros
@@ -588,7 +589,7 @@ namespace ConsoleApp1
             }
         }
 
-        class Aluno : Usuario 
+        class Aluno : Usuario
         {
 
             public string turno;
@@ -629,11 +630,11 @@ namespace ConsoleApp1
             public string sala;
 
 
-            public filho(string nome, string email, string senha, string sala):base(string nome, string sala)
+            public filho(string nome, string email, string senha, string sala) : base(string nome, string sala)
             {
-                    // cria-se primeiro o construtor dentro da classe pai e referencia ela com um novo
-                    // construtor aluno com os parametros da classe e depois
-                    // com base para os parametros do construtor 
+                // cria-se primeiro o construtor dentro da classe pai e referencia ela com um novo
+                // construtor aluno com os parametros da classe e depois
+                // com base para os parametros do construtor 
             }
         }
 
@@ -651,8 +652,8 @@ namespace ConsoleApp1
         tabela.Columns.Add("coluna2");
 
         DataRow linha1 = tabela.newRow();
-        linha1 ["coluna1"] = "valor1";
-        linha1 ["coluna2"] = "valor2";
+        linha1["coluna1"] = "valor1";
+        linha1["coluna2"] = "valor2";
         tabela.Rows.Add(linha1);
 
         tabela.Xml("tabela.XML");
@@ -709,18 +710,100 @@ namespace ConsoleApp1
         }
 
 
-       
-           
+
+        //Irtefaces
+
+        string FormaSelecionada = "RETANGULO";
+
+        //  Line, Tri, Circ,    Rect,   Quad
+        IDrawable shape = new Line();
+        
+        shape.Draw();
+
+            //Desse modo é bem melhor do que ficar usando if e else adoidado
+            //Chamo a interface e atribuo uma variavel a ela que recebe uma nova line que a variavel shape "Desenha" na tela.
+
+        
+
+        if(FormaSelecionada)
+        {
+                
+            //Logica de Line
+            if(FormaSelecionada == "Line")
+            {
+
+            }
+            //Logica de Circ
+            else if(FormaSelecionada == "Quad")
+            {
+
+            }
+            //Logica de Tri
+            else if(FormaSelecionada == "Tri")
+            {
+
+            }
+
+            //Logica de Quade
+            else if(FormaSelecionada == "Circ")
+            {
+
+            }
+
+            //Logica de Rect
+            else if(FormaSelecionada == "Rect")
+            {
+            
+            }
+
+            //Se caso esse Lógica tivesse 20 cases caso fosse um SWITCH tbm, daria muita repetição de código e um código macarronico.
+            // E a interface ajuda para isso.
+            //Uma interface é como se fosse um contrato que tem suas claúsulas 
+            //NN tem modificadores de acesso, quando se trabalha com interface, tudp é publico
+            // uma interface define um conjunto de metodos que uma classe precisa implementar
+
+
+
+            interface IDrawable
+        {
+            void Draw(); //define o retorna e coloca os parametros
+        }
+
+        class Line() : Usuario, IDrawable, IFormattable, IDesigner // Só pode ter uma herança caso for usar uma e posso usar quantas interfaces eu quiser
+        {
+            public void Draw()
+            {
+                Console.WriteLine("--lINE--");//Pode se usar a lampada para implementar 
+            }
+        }
+
+        class Tri() : IDrawable
+        {
+            public void Draw()
+            {
+                Console.WriteLine("--TRI--");
+            }
+        }
+        class Circ() : IDrawable
+        {
+            public void Draw()
+            {
+               Console.WriteLine("--CIRC--");
+            }
+        }
+
+    }
+} 
 
         Console.ReadLine();
 
         }
-        static void GerarProduto(int preco, string nome)
+        /*static void GerarProduto(int preco, string nome)
         {
             /*int precoAbs = Math.Abs(preco);
             int precoFinal = precoAbs + (precoAbs * 2);
             Console.WriteLine("Nome do Produto: " + nome);
-            Console.WriteLine("Valor do produto: " + precoFinal);*/
+            Console.WriteLine("Valor do produto: " + precoFinal);
         }
 
         static int Somar(int a, int b, int c)
@@ -731,7 +814,8 @@ namespace ConsoleApp1
             return ResultadoFinal;
 
             Console.WriteLine("B");
-        }
+        }*/
 
     }
 }
+   
