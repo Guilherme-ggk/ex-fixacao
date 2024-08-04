@@ -792,8 +792,41 @@ namespace ConsoleApp1
             }
         }
 
+
+
+        //Classe abstrada
+        // é meio semelhante as Interfaces, nela você tem colocar sua assinatura, implementar os metodos mesmo que essas funções sejam vazias
+        // ela pode ter atributos, variaveis e metodos dentro dela
+        // Classe abstrada é praticamente uma mistura de Herança com Interface
+        // A maioria dos programadores usam mais interfaces do que a classe abstrada
+
+
+        Exemplo:
+
+            class Desenhar
+        {
+
+            public int size;
+            public string name;  //variaveis
+            string pintar()
+            {
+                return 0;
+            }
+
+            public abstract float area();  //Caso queira não retornar nada, é obrigatorio colocar public abstract e tirar os colchetes
+      
+        }
+
+
+
     }
+
+
 } 
+
+
+        
+
 
         Console.ReadLine();
 
