@@ -839,6 +839,17 @@ namespace ConsoleApp1
                             //É melhor para a organização de projetos e bibliotecas grandes e complexas.
 
 
+                    // Struct vs Classes 
+
+                      // Os dois criam novos tipos de dados, mas o que difere é o seu uso de armazenamento da memoria ram
+                      // Struct trabalha com um mecanismo de cópia, criando uma variavel e copiando ela na memoria quando se aplica a mesma.
+                      // Struct não tem como usar Polimorfismo, Herança e nem Interfaces e precisa passar os dados nos campos. é mais limitado.
+                      // Sempre que possivel use classes.
+                      // Uma classe trabalha com um mecanismo de referencia, apontando, fazendo assim não uso da memoria gerando copias, e melhorando a produtividade do código.
+                      // E quando essa refencia é cortada, um agente do C# chamado GC (Garbage Colector), automaticamente quando o código é executado
+                      // Ele joga as variaveis que não estão em uso no lixo.
+
+
 
     }
 
