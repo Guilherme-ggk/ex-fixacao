@@ -801,7 +801,7 @@ namespace ConsoleApp1
         // A maioria dos programadores usam mais interfaces do que a classe abstrada
 
 
-        Exemplo:
+        //Exemplo:
 
             class Desenhar
         {
@@ -816,6 +816,10 @@ namespace ConsoleApp1
             public abstract float area();  //Caso queira não retornar nada, é obrigatorio colocar public abstract e tirar os colchetes
       
         }
+
+        //Namespaces
+
+
 
 
 
