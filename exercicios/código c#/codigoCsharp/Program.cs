@@ -835,6 +835,10 @@ namespace ConsoleApp1
                                 //CÓDIGO
                             }
 
+                        // Tambem dá para referenciar um namesSpace no using
+
+                                        using Netflix.com.br;
+
 
                             //É melhor para a organização de projetos e bibliotecas grandes e complexas.
 
