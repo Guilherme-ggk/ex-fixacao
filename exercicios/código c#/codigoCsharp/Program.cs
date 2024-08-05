@@ -814,12 +814,29 @@ namespace ConsoleApp1
             }
 
             public abstract float area();  //Caso queira não retornar nada, é obrigatorio colocar public abstract e tirar os colchetes
-      
+
         }
 
-        //Namespaces
+        
+
+            //Namespaces 
+                    // é o nome do seu bloco de código, como para bibliotecas e classes
+                        //Exemplo:
+
+                            //namespace Netflix
+                            { 
+                                //CÓDIGO
+                            }
+
+                            // pode se escrever com mais extenções tbm 
+
+                            //namespace Netflix.com.br
+                            { 
+                                //CÓDIGO
+                            }
 
 
+                            //É melhor para a organização de projetos e bibliotecas grandes e complexas.
 
 
 
