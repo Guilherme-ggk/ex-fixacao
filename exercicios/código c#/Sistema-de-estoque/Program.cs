@@ -8,7 +8,6 @@ namespace Sistema_de_estoque
 {
     internal class Program
     {
-
         enum Menu { listagem = 1, adicionar, remover, entrada, saida, sair };
 
         static void Main(string[] args)
@@ -18,7 +17,6 @@ namespace Sistema_de_estoque
 
             while (escolheuSair == false)
             {
-
                 Console.WriteLine("<<  Sistema de Estoque  >>");
                 Console.WriteLine("\n1-listagem de produtos\n2-adicionar produto\n3-remover produto\n4-entrada de produtos\n5-saida de produtos\n6-sair");
                 string instr = Console.ReadLine();
@@ -40,7 +38,6 @@ namespace Sistema_de_estoque
                     case Menu.sair:
                         escolheuSair = true;
                         break;
-
                 }
             }
         }
