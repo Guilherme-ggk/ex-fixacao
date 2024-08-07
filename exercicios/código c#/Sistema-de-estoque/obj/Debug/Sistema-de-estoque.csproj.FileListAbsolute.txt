@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\código c#\Sistema-de-estoque\bin\Debug\Sistema-de-estoque.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\código c#\Sistema-de-estoque\bin\Debug\Sistema-de-estoque.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\código c#\Sistema-de-estoque\bin\Debug\Sistema-de-estoque.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\código c#\Sistema-de-estoque\obj\Debug\Sistema-de-estoque.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\código c#\Sistema-de-estoque\obj\Debug\Sistema-de-estoque.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\código c#\Sistema-de-estoque\obj\Debug\Sistema-de-estoque.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\código c#\Sistema-de-estoque\obj\Debug\Sistema-de-estoque.pdb
