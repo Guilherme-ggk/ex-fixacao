@@ -20,24 +20,31 @@ namespace Sistema_de_estoque
                 Console.WriteLine("<<  Sistema de Estoque  >>");
                 Console.WriteLine("\n1-listagem de produtos\n2-adicionar produto\n3-remover produto\n4-entrada de produtos\n5-saida de produtos\n6-sair");
                 string instr = Console.ReadLine();
-                int intop = int.Parse(Console.ReadLine());
+                int intop = int.Parse(instr);
                 Menu opcao = (Menu)intop;
 
-                switch (opcao)
+                if(intop > 0 && intop < 7)
                 {
-                    case Menu.listagem:
-                        break;
-                    case Menu.adicionar:
-                        break;
-                    case Menu.remover:
-                        break;
-                    case Menu.entrada:
-                        break;
-                    case Menu.saida:
-                        break;
-                    case Menu.sair:
-                        escolheuSair = true;
-                        break;
+                    switch (opcao)
+                    {
+                        case Menu.listagem:
+                            break;
+                        case Menu.adicionar:
+                            break;
+                        case Menu.remover:
+                            break;
+                        case Menu.entrada:
+                            break;
+                        case Menu.saida:
+                            break;
+                        case Menu.sair:
+                            escolheuSair = true;
+                            break;
+                    }
+                }
+                else
+                {
+                    escolheuSair = true;
                 }
             }
         }

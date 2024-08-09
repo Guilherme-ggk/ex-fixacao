@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{457DB052-215F-4D60-B555-69FFCCC57995}|Sistema-de-estoque.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\sistema-de-estoque\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{457DB052-215F-4D60-B555-69FFCCC57995}|Sistema-de-estoque.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DB052-215F-4D60-B555-69FFCCC57995}|Sistema-de-estoque.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\sistema-de-estoque\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DB052-215F-4D60-B555-69FFCCC57995}|Sistema-de-estoque.csproj|solutionrelative:produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DB052-215F-4D60-B555-69FFCCC57995}|Sistema-de-estoque.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\sistema-de-estoque\\produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DB052-215F-4D60-B555-69FFCCC57995}|Sistema-de-estoque.csproj|solutionrelative:produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DB052-215F-4D60-B555-69FFCCC57995}|Sistema-de-estoque.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\sistema-de-estoque\\ebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DB052-215F-4D60-B555-69FFCCC57995}|Sistema-de-estoque.csproj|solutionrelative:ebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DB052-215F-4D60-B555-69FFCCC57995}|Sistema-de-estoque.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\sistema-de-estoque\\iestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DB052-215F-4D60-B555-69FFCCC57995}|Sistema-de-estoque.csproj|solutionrelative:iestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEstoque.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\Sistema-de-estoque\\IEstoque.cs",
+              "RelativeDocumentMoniker": "IEstoque.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\Sistema-de-estoque\\IEstoque.cs",
+              "RelativeToolTip": "IEstoque.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T02:18:13.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ebook.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\Sistema-de-estoque\\Ebook.cs",
+              "RelativeDocumentMoniker": "Ebook.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\Sistema-de-estoque\\Ebook.cs",
+              "RelativeToolTip": "Ebook.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T02:14:37.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutoFisico.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\Sistema-de-estoque\\ProdutoFisico.cs",
+              "RelativeDocumentMoniker": "ProdutoFisico.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\Sistema-de-estoque\\ProdutoFisico.cs",
+              "RelativeToolTip": "ProdutoFisico.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T02:13:23.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\Sistema-de-estoque\\Produto.cs",
+              "RelativeDocumentMoniker": "Produto.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\Sistema-de-estoque\\Produto.cs",
+              "RelativeToolTip": "Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T02:12:30.097Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +92,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\exercicios\\c\u00F3digo c#\\Sistema-de-estoque\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T02:46:15.774Z",
               "EditorCaption": ""
