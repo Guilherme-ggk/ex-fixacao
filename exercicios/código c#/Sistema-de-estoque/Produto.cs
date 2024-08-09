@@ -9,6 +9,6 @@ namespace Sistema_de_estoque
     class Produto
     {
         public string nome;
-        public float preço;
+        public float preco;
     }
 }

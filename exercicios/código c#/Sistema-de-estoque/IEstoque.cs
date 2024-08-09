@@ -9,8 +9,8 @@ namespace Sistema_de_estoque
     public interface IEstoque
     {
         void Exibir();
-        void AdicionarSaida();
         void AdicionarEntrada();
+        void AdicionarSaida();
 
 
     }

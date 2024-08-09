@@ -6,34 +6,34 @@ using System.Threading.Tasks;
 
 namespace Sistema_de_estoque
 {
-    class ProdutoFisico : Produto, IEstoque
+    class Curso : Produto, IEstoque
     {
-        public string frete;
-        private int estoque;
+        public string autor;
+        private int vagas;
 
-        public ProdutoFisico(string nome, float preco,string frete)
+        public Curso(string nome, float preco, string autor)
         {
-            this.nome = nome;
+            this.nome = nome;   
             this.preco = preco;
-            this.frete = frete;
+            this.autor = autor;
         }
 
         public void AdicionarEntrada()
         {
-            throw new NotImplementedException();
+           
         }
 
         public void AdicionarSaida()
         {
-            throw new NotImplementedException();
+           
         }
 
         public void Exibir()
         {
-            Console.WriteLine($"Nome: {nome}");
-            Console.WriteLine($"Frete: {frete}");
+            Console.WriteLine($"Nome do Curso: {nome}");
+            Console.WriteLine($"Autor: {autor}");
             Console.WriteLine($"Preço: {preco}");
-            Console.WriteLine($"Estoque: {estoque}");
+            Console.WriteLine($"Vagas restantes: {vagas}");
             Console.WriteLine("===================================");
         }
     }
