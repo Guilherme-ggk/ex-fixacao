@@ -32,6 +32,7 @@ namespace Sistema_de_estoque
                         case Menu.listagem:
                             break;
                         case Menu.adicionar:
+                            Cadastro();
                             break;
                         case Menu.remover:
                             break;
@@ -48,6 +49,7 @@ namespace Sistema_de_estoque
                 {
                     escolheuSair = true;
                 }
+                Console.Clear();
             }
         }
 
@@ -61,8 +63,10 @@ namespace Sistema_de_estoque
             switch(intop)
             {
                 case 1:
+                    CadastrarPFisico();
                     break;
                         case 2:
+                    CadastrarEbook();
                             break;
                                 case 3:
                                     break;
@@ -81,6 +85,31 @@ namespace Sistema_de_estoque
             Console.WriteLine("Frete:");
             float frete = float.Parse(Console.ReadLine());
             ProdutoFisico pf = new ProdutoFisico(nome, preco, frete);
+            produtos.Add(pf);
+        }
+        static void CadastrarEbook()
+        {
+            Console.WriteLine("Cadastrando Ebook");
+            Console.WriteLine("Nome:");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Preço:");
+            float preco = float.Parse(Console.ReadLine());
+            Console.WriteLine("Autor:");
+            string autor = Console.ReadLine();
+            Ebook eb = new Ebook(nome, preco, autor);
+            produtos.Add(eb);
+        }
+        static void CadastrarCurso()
+        {
+            Console.WriteLine("Cadastrando Curso");
+            Console.WriteLine("Nome:");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Preço:");
+            float preco = float.Parse(Console.ReadLine());
+            Console.WriteLine("Autor:");
+            string autor = Console.ReadLine();
+            Curso cs = new Curso(nome, preco, autor);
+            produtos.Add(cs);
         }
     }
 }

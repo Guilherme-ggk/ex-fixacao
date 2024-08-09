@@ -8,10 +8,10 @@ namespace Sistema_de_estoque
 {
     class ProdutoFisico : Produto, IEstoque
     {
-        public string frete;
+        public float frete;
         private int estoque;
 
-        public ProdutoFisico(string nome, float preco,string frete)
+        public ProdutoFisico(string nome, float preco,float frete)
         {
             this.nome = nome;
             this.preco = preco;
