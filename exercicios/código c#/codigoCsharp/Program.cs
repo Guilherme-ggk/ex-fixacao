@@ -853,6 +853,13 @@ namespace ConsoleApp1
                       // E quando essa refencia é cortada, um agente do C# chamado GC (Garbage Colector), automaticamente quando o código é executado
                       // Ele joga as variaveis que não estão em uso no lixo.
 
+                    // Protocolo HTTP
+                    // é o protocolo que faz requisições de servidores para os clientes, por exemplo, um computador da goole(servidor) 
+                    //contem paginas e arquivos que usuario x quer acessar e nisso o HTTP faz a requisão de lá para o cliente mostrando assim
+                    //na sua tela ou celular
+                    //Uma analogia, os computadores são  órgãos, as veias são as conexões de cabo e rede internet, e a corrente sanguinea é
+                    // o HTTP levando informações e nutrientes para os computdores
+
 
 
     }
