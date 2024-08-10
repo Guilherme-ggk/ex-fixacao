@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sistema_de_estoque
 {
+    [System.Serializable]
     class ProdutoFisico : Produto, IEstoque
     {
         public float frete;
@@ -20,12 +21,25 @@ namespace Sistema_de_estoque
 
         public void AdicionarEntrada()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Adicionando entrada de estoque no produto {nome}:");
+            Console.WriteLine("Digite a quantidade que você quer dar entrada:");
+            int entrada = int.Parse( Console.ReadLine());
+            //estoque = estoque + entrada; mesma coisa
+            estoque += entrada;
+            Console.WriteLine("Entrada adicionada com sucesso!");
+            Console.ReadLine();
+
         }
 
         public void AdicionarSaida()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Adicionando entrada de estoque no produto {nome}:");
+            Console.WriteLine("Digite a quantidade que você quer dar entrada:");
+            int entrada = int.Parse(Console.ReadLine());
+            //estoque = estoque + entrada; mesma coisa
+            estoque += entrada;
+            Console.WriteLine("Entrada adicionada com sucesso!");
+            Console.ReadLine();
         }
 
         public void Exibir()

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,6 +16,7 @@ namespace Sistema_de_estoque
 
         static void Main(string[] args)
         {
+            Carregar();
 
             bool escolheuSair = false;
 
@@ -30,13 +33,16 @@ namespace Sistema_de_estoque
                     switch (opcao)
                     {
                         case Menu.listagem:
+                            Listagem();
                             break;
                         case Menu.adicionar:
                             Cadastro();
                             break;
                         case Menu.remover:
+                            Remover();
                             break;
                         case Menu.entrada:
+                            AdicionarEntrada();
                             break;
                         case Menu.saida:
                             break;
@@ -52,7 +58,6 @@ namespace Sistema_de_estoque
                 Console.Clear();
             }
         }
-
         static void Cadastro()
         {
             Console.WriteLine("Cadastro de Produtos");
@@ -69,7 +74,8 @@ namespace Sistema_de_estoque
                     CadastrarEbook();
                             break;
                                 case 3:
-                                    break;
+                    CadastrarCurso();
+                    break;
 
             }
 
@@ -86,6 +92,7 @@ namespace Sistema_de_estoque
             float frete = float.Parse(Console.ReadLine());
             ProdutoFisico pf = new ProdutoFisico(nome, preco, frete);
             produtos.Add(pf);
+            Salvar();
         }
         static void CadastrarEbook()
         {
@@ -98,6 +105,7 @@ namespace Sistema_de_estoque
             string autor = Console.ReadLine();
             Ebook eb = new Ebook(nome, preco, autor);
             produtos.Add(eb);
+            Salvar();
         }
         static void CadastrarCurso()
         {
@@ -110,6 +118,71 @@ namespace Sistema_de_estoque
             string autor = Console.ReadLine();
             Curso cs = new Curso(nome, preco, autor);
             produtos.Add(cs);
+            Salvar();
+        }
+
+        static void Salvar()
+        {
+            FileStream stream = new FileStream("produtos.dat",FileMode.OpenOrCreate);
+            BinaryFormatter encoder = new BinaryFormatter();
+
+            encoder.Serialize(stream, produtos);
+
+            stream.Close();
+        }
+        static void Carregar()
+        {
+            FileStream stream = new FileStream("produtos.dat",FileMode.OpenOrCreate);
+
+            try
+            {
+                BinaryFormatter encoder = new BinaryFormatter();
+
+                produtos = (List<IEstoque>)encoder.Deserialize(stream); 
+
+                if(produtos == null)
+                {
+                    produtos = new List<IEstoque>();
+                }
+            }
+            catch(Exception)
+            {
+                produtos = new List<IEstoque>();
+            }
+            stream.Close();
+        }
+        static void Listagem()
+        {
+            int id = 0;
+            foreach (IEstoque produto in produtos)
+            {
+                Console.WriteLine($"ID:{id}");
+                produto.Exibir();
+                id++;
+            }
+            Console.ReadLine();
+        }
+        static void Remover()
+        {
+            Listagem();
+            Console.WriteLine("Digite o produto que deseja remover:(ID)");
+            int id = int.Parse(Console.ReadLine());
+            if(id >= 0 && produtos.Count > id)
+            {
+                produtos.RemoveAt(id);
+                Salvar();
+            }
+        }
+        static void AdicionarEntrada()
+        {
+            Listagem();
+            Console.WriteLine("Digite o produto que deseja adicionar entrada:(ID)");
+            int id = int.Parse(Console.ReadLine());
+            if (id >= 0 && produtos.Count > id)
+            {
+                produtos[id].AdicionarEntrada();
+                Salvar();
+            }
         }
     }
 }

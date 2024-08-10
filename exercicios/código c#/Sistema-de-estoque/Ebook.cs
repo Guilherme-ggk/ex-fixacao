@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sistema_de_estoque
 {
+    [System.Serializable]
     class Ebook : Produto ,IEstoque
     {
         public string autor;
@@ -20,7 +21,8 @@ namespace Sistema_de_estoque
 
         public void AdicionarEntrada()
         {
-           
+           Console.WriteLine("Não é possivel dar entrada em ebook, pois é um produto digital!");
+            Console.ReadLine();
         }
 
         public void AdicionarSaida()

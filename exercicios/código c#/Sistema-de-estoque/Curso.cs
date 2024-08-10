@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sistema_de_estoque
 {
+    [System.Serializable]
     class Curso : Produto, IEstoque
     {
         public string autor;
@@ -20,7 +21,13 @@ namespace Sistema_de_estoque
 
         public void AdicionarEntrada()
         {
-           
+            Console.WriteLine($"Adicionando entrada de vagas no curso {nome}:");
+            Console.WriteLine("Digite a quantidade de vagas que você quer dar entrada:");
+            int entrada = int.Parse(Console.ReadLine());
+            //estoque = estoque + entrada; mesma coisa
+            vagas += entrada;
+            Console.WriteLine("Vaga adicionada com sucesso!");
+            Console.ReadLine();
         }
 
         public void AdicionarSaida()
