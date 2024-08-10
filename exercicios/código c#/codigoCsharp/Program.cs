@@ -12,6 +12,7 @@ using System.Runtime.InteropServices;
 using static System.Net.WebRequestMethods;
 using System.Data;
 using System.ComponentModel.Design;
+using System.Net;
 
 namespace ConsoleApp1
 {
@@ -859,6 +860,47 @@ namespace ConsoleApp1
                     //na sua tela ou celular
                     //Uma analogia, os computadores são  órgãos, as veias são as conexões de cabo e rede internet, e a corrente sanguinea é
                     // o HTTP levando informações e nutrientes para os computdores
+
+                    //web request
+
+                           //Requisição para web
+                          var Requisicao = WebRequest.Create("https://jsonplaceholder.typicode.com/todos/");
+
+                        Requisicao.Method = "GET";
+
+                                using (var resposta = Requisicao.GetResponse())
+                                {
+                                        var stream = resposta.GetResponseStream();
+                                        StreamReader leitor = new StreamReader(stream);
+                                        object dados = leitor.ReadToEnd();
+
+
+                                      Console.WriteLine(dados.ToString());
+
+                                    stream.Close();  
+    
+                                    resposta.Close();
+                                }
+                                Console.ReadLine();
+
+                                    //dev web
+                                    //aspnet
+                                    //aspnetcore
+
+                                    //dev mobile
+                                    //xamarin
+                                    //maui
+
+                                    //dev desktop
+                                    //WPF - Windows e talvez linux e Ios, pesquise sobre
+
+                                    //dev jogos
+                                    //unity
+
+                                    //faça um por vez 
+                                    //tem mais mercado no brasil para web e mobile, e mais jogos do que desktop
+
+                                    //Curso formação Csharp Finalizado!
 
 
 
