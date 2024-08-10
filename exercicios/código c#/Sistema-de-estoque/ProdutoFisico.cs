@@ -33,12 +33,12 @@ namespace Sistema_de_estoque
 
         public void AdicionarSaida()
         {
-            Console.WriteLine($"Adicionando entrada de estoque no produto {nome}:");
-            Console.WriteLine("Digite a quantidade que você quer dar entrada:");
+            Console.WriteLine($"Adicionando Saida de estoque no produto {nome}:");
+            Console.WriteLine("Digite a quantidade que você quer dar baixa:");
             int entrada = int.Parse(Console.ReadLine());
-            //estoque = estoque + entrada; mesma coisa
-            estoque += entrada;
-            Console.WriteLine("Entrada adicionada com sucesso!");
+            //estoque = estoque - entrada; mesma coisa
+            estoque -= entrada;
+            Console.WriteLine("Saida registrada com sucesso!");
             Console.ReadLine();
         }
 

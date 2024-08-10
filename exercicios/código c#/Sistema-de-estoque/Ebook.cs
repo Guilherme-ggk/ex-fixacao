@@ -27,7 +27,13 @@ namespace Sistema_de_estoque
 
         public void AdicionarSaida()
         {
-            
+            Console.WriteLine($"Adicionando saida de vendas no ebook {nome}:");
+            Console.WriteLine("Digite a quantidade de vendas que você quer dar saida:");
+            int entrada = int.Parse(Console.ReadLine());
+            //estoque = estoque + entrada; mesma coisa
+            vendas += entrada;
+            Console.WriteLine("Vendas registradas com sucesso!");
+            Console.ReadLine();
         }
 
         public void Exibir()

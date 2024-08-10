@@ -45,6 +45,7 @@ namespace Sistema_de_estoque
                             AdicionarEntrada();
                             break;
                         case Menu.saida:
+                            Saida();
                             break;
                         case Menu.sair:
                             escolheuSair = true;
@@ -181,6 +182,18 @@ namespace Sistema_de_estoque
             if (id >= 0 && produtos.Count > id)
             {
                 produtos[id].AdicionarEntrada();
+                Salvar();
+            }
+            
+        }
+        static void Saida()
+        {
+            Listagem();
+            Console.WriteLine("Digite o produto que deseja registrar a saida:(ID)");
+            int id = int.Parse(Console.ReadLine());
+            if (id >= 0 && produtos.Count > id)
+            {
+                produtos[id].AdicionarSaida();
                 Salvar();
             }
         }

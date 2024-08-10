@@ -32,7 +32,13 @@ namespace Sistema_de_estoque
 
         public void AdicionarSaida()
         {
-           
+            Console.WriteLine($"Adicionando Saida de vagas no produto {nome}:");
+            Console.WriteLine("Digite a quantidade de vagas que você quer dar baixa:");
+            int entrada = int.Parse(Console.ReadLine());
+            //estoque = estoque - entrada; mesma coisa
+            vagas -= entrada;
+            Console.WriteLine("Saida registrada com sucesso!");
+            Console.ReadLine();
         }
 
         public void Exibir()
