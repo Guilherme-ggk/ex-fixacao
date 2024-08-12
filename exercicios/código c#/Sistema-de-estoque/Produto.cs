@@ -9,7 +9,7 @@ namespace Sistema_de_estoque
     [System.Serializable]
     class Produto
     {
-        public string nome;
+        public string nome;//classe pai que vai passar esses dois metodos para os filhos
         public float preco;
     }
 }
