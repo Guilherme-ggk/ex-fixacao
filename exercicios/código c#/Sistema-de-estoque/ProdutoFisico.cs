@@ -12,7 +12,7 @@ namespace Sistema_de_estoque
         public float frete;//classe filha que vai ter esses dois metodos e vai receber os do seu pai também
         private int estoque;//na maioria das vezes estoque e vendas sempre serão algo privado do metodo
 
-        public ProdutoFisico(string nome, float preco,float frete)
+        public ProdutoFisico(string nome, float preco,float frete)//como aqui
         {
             this.nome = nome;
             this.preco = preco;

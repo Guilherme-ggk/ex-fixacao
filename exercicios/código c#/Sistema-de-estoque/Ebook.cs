@@ -22,7 +22,7 @@ namespace Sistema_de_estoque
         public void AdicionarEntrada()
         {
            Console.WriteLine("Não é possivel dar entrada em ebook, pois é um produto digital!");
-            Console.ReadLine();
+            Console.ReadLine();//produtos digitais como ebooks e jogos e filmes, são contabilizados somente a venda
         }
 
         public void AdicionarSaida()
