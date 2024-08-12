@@ -14,7 +14,7 @@ namespace Sistema_de_estoque
 
         static List<IEstoque> produtos = new List<IEstoque>();  
 
-        static void Main(string[] args)
+        static void Main(string[] args) //criando o projeto
         {
             Carregar();
 
@@ -28,7 +28,7 @@ namespace Sistema_de_estoque
                 int intop = int.Parse(instr);
                 Menu opcao = (Menu)intop;
 
-                if(intop > 0 && intop < 7)
+                if(intop > 0 && intop < 7) //validando para escolher entre as 6 opções
                 {
                     switch (opcao)
                     {
@@ -56,14 +56,14 @@ namespace Sistema_de_estoque
                 {
                     escolheuSair = true;
                 }
-                Console.Clear();
+                Console.Clear(); // limpando o console depois de sair 
             }
         }
-        static void Cadastro()
+        static void Cadastro() //cadastrando novos produtos para o estoque
         {
             Console.WriteLine("Cadastro de Produtos");
             Console.WriteLine("\n1-Produto Fisico\n2-Ebook\n3-Curso");
-            string instr = Console.ReadLine();
+            string instr = Console.ReadLine(); //passando via string
             int intop = int.Parse(instr);
 
             switch(intop)
