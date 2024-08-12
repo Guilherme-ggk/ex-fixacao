@@ -12,7 +12,7 @@ namespace Sistema_de_estoque
     {
         enum Menu { listagem = 1, adicionar, remover, entrada, saida, sair };
 
-        static List<IEstoque> produtos = new List<IEstoque>();  
+        static List<IEstoque> produtos = new List<IEstoque>();// lista que armazana as classes que tem contrato com a interface IEstoque
 
         static void Main(string[] args) //criando o projeto
         {
@@ -143,12 +143,12 @@ namespace Sistema_de_estoque
 
                 if(produtos == null)
                 {
-                    produtos = new List<IEstoque>();
+                    produtos = new List<IEstoque>(); //se for nula, cria uma nova lista
                 }
             }
             catch(Exception)
             {
-                produtos = new List<IEstoque>();
+                produtos = new List<IEstoque>();//criando uma nova lista caso a primeira não passe
             }
             stream.Close();
         }
