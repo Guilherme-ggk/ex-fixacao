@@ -181,7 +181,7 @@ namespace Sistema_de_estoque
             int id = int.Parse(Console.ReadLine());
             if (id >= 0 && produtos.Count > id)
             {
-                produtos[id].AdicionarEntrada();
+                produtos[id].AdicionarEntrada();//lógica para adicionar itens ao estoque
                 Salvar();
             }
             
@@ -193,7 +193,7 @@ namespace Sistema_de_estoque
             int id = int.Parse(Console.ReadLine());
             if (id >= 0 && produtos.Count > id)
             {
-                produtos[id].AdicionarSaida();
+                produtos[id].AdicionarSaida();//lógica para adicionar saida ao estoque
                 Salvar();
             }
         }
