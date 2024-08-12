@@ -881,59 +881,90 @@ namespace ConsoleApp1
     
                                     resposta.Close();
                                 }
-                                Console.ReadLine();
-
-                                    //dev web
-                                    //aspnet
-                                    //aspnetcore
-
-                                    //dev mobile
-                                    //xamarin
-                                    //maui
-
-                                    //dev desktop
-                                    //WPF - Windows e talvez linux e Ios, pesquise sobre
-
-                                    //dev jogos
-                                    //unity
-
-                                    //faça um por vez 
-                                    //tem mais mercado no brasil para web e mobile, e mais jogos do que desktop
-
-                                    //Curso formação Csharp Finalizado!
 
 
+// mais sobre requisiçoes web
 
-    }
+                    static void Main(string[] args)
+                    {
+                        //ReqList();
+                        ReqUnica();
+
+                    }
+}
+                static void ReqUnica()
+                {
+                    var requisicao = WebRequest.Create("https://jsonplaceholder.typicode.com/todos/5");
+                    var resposta = requisicao.GetResponse();
+
+                    using (resposta)
+                    {
+                        var stream = resposta.GetResponseStream();
+                        StreamReader leitor = new StreamReader(stream);
+                        object dados = leitor.ReadToEnd();
 
 
-} 
+                        Tarefa tarefa = JsonConvert.DeserializeObject<Tarefa>(dados.ToString());
+
+                        tarefa.Exibir();
+
+
+                        resposta.Close();
+                        leitor.Close();
+
+                    }
+
+                        //dev web
+                        //aspnet
+                        //aspnetcore
+
+                        //dev mobile
+                        //xamarin
+                        //maui
+
+                        //dev desktop
+                        //WPF - Windows e talvez linux e Ios, pesquise sobre
+
+                        //dev jogos
+                        //unity
+
+                        //faça um por vez 
+                        //tem mais mercado no brasil para web e mobile, e mais jogos do que desktop
+
+                        //Curso formação Csharp Finalizado!
+
+
+
+}
+
+
+
 
 
         
 
 
-        Console.ReadLine();
+                            Console.ReadLine();
 
-        }
-        /*static void GerarProduto(int preco, string nome)
-        {
-            /*int precoAbs = Math.Abs(preco);
-            int precoFinal = precoAbs + (precoAbs * 2);
-            Console.WriteLine("Nome do Produto: " + nome);
-            Console.WriteLine("Valor do produto: " + precoFinal);
-        }
+   
+                            /*static void GerarProduto(int preco, string nome)
+                            {
+                                /*int precoAbs = Math.Abs(preco);
+                                int precoFinal = precoAbs + (precoAbs * 2);
+                                Console.WriteLine("Nome do Produto: " + nome);
+                                Console.WriteLine("Valor do produto: " + precoFinal);
+                            }
 
-        static int Somar(int a, int b, int c)
-        {
-            Console.WriteLine("a");
+                            static int Somar(int a, int b, int c)
+                            {
+                                Console.WriteLine("a");
 
-            int ResultadoFinal = a + b + c;
-            return ResultadoFinal;
+                                int ResultadoFinal = a + b + c;
+                                return ResultadoFinal;
 
-            Console.WriteLine("B");
-        }*/
+                                Console.WriteLine("B");
+                            }*/
 
-    }
-}
+                        }
+                    }
    
