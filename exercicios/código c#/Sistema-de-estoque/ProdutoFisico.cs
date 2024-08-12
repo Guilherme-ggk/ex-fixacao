@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sistema_de_estoque
 {
-    [System.Serializable]
+    [System.Serializable]//todas as classes precisam estar serializaveis
     class ProdutoFisico : Produto, IEstoque
     {
         public float frete;//classe filha que vai ter esses dois metodos e vai receber os do seu pai também
