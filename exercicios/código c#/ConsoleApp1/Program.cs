@@ -7,65 +7,128 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft;
 using Newtonsoft.Json;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace ConsoleApp1
 {
     internal class Program
     {
-        static void Main(string[] args)
+        [System.Serializable]
+        struct Cliente
         {
-            //ReqList();
-            ReqUnica();
-            
+            public string nome;
+            public string idade;
         }
-        static void ReqList()
+
+        enum Menu { listagem = 1, adicionar, remover, sair }
+
+        static List<Cliente> clientes = new List<Cliente>();
+       
+        static void Main()
         {
-            var requisicao = WebRequest.Create("https://jsonplaceholder.typicode.com/todos");
-            var resposta = requisicao.GetResponse();
-
-            using (resposta)
+            bool escolheuSair = false;
+            while (!escolheuSair)
             {
-                StreamReader leitor = new StreamReader(resposta.GetResponseStream());
-                object dados = leitor.ReadToEnd();
-                Console.WriteLine(dados.ToString());
+                Carregar();
+                Console.WriteLine("<< Gestor de Cliente >>");
+                Console.WriteLine("\n1-Listagem\n2-Adicionar\n3-Remover\n4-Sair");
+                int intop = int.Parse(Console.ReadLine());
+                Menu opcao = (Menu)intop;
 
-                List<Tarefa> tarefas = JsonConvert.DeserializeObject<List<Tarefa>>(dados.ToString());
-
-                Console.WriteLine(tarefas);
-
-                foreach (Tarefa tarefa in tarefas)
+                switch (opcao)
                 {
-                    tarefa.Exibir();
+                    case Menu.listagem:
+                        Listagem();
+                        break;
+                    case Menu.adicionar:
+                        Adicionar();
+                        break;
+                    case Menu.remover:
+                        Remover();
+                        break;
+                    case Menu.sair:
+                        escolheuSair = true;
+                        break;
                 }
-
-                resposta.Close();
-                leitor.Close();
-
+                
+                Console.Clear();
             }
             Console.ReadLine();
         }
-        static void ReqUnica()
+       
+
+        static void Listagem()
         {
-            var requisicao = WebRequest.Create("https://jsonplaceholder.typicode.com/todos/5");
-            var resposta = requisicao.GetResponse();
-
-            using (resposta)
+            if(clientes.Count > 0)
             {
-                var stream = resposta.GetResponseStream();
-                StreamReader leitor = new StreamReader(stream);
-                object dados = leitor.ReadToEnd();
-                
-
-                Tarefa tarefa = JsonConvert.DeserializeObject<Tarefa>(dados.ToString());
-
-                tarefa.Exibir();
-
-
-                resposta.Close();
-                leitor.Close();
-
+                int id = 0;
+                foreach (var cliente in clientes)
+                {
+                    Console.WriteLine($"ID: {id}");
+                    Console.WriteLine($"Nome: {cliente.nome}");
+                    Console.WriteLine($"Idade: {cliente.idade}");
+                    id++;
+                }
             }
-            Console.ReadLine();
+            else
+            {
+                Console.WriteLine("Nenhum cliente cadastrado!");
+                Console.WriteLine("Aperte enter para voltar ao menu.");
+            }
+           Console.ReadLine();
+        }
+        static void Adicionar()
+        {
+            Cliente cliente = new Cliente();
+
+            Console.WriteLine("Nome:");
+            cliente.nome = Console.ReadLine();
+
+            Console.WriteLine("Idade:");
+            cliente.idade = Console.ReadLine(); 
+
+            clientes.Add( cliente );
+            Salvar();
+        }
+        static void Remover() 
+        {
+            Listagem();
+            Console.WriteLine("Digite o cliente que deseja remover:(id)");
+            int id = int.Parse(Console.ReadLine());
+            if(id >= 0 && clientes.Count > id)
+            {
+                clientes.RemoveAt(id);
+                Salvar();
+            }
+        }
+        static void Salvar()
+        {
+            FileStream stream = new FileStream("clientes.dat",FileMode.OpenOrCreate);
+            BinaryFormatter encoder = new BinaryFormatter();    
+
+            encoder.Serialize(stream, clientes);
+
+            stream.Close();
+        }
+        static void Carregar()
+        {
+            FileStream stream = new FileStream("clientes.dat", FileMode.OpenOrCreate);
+            try
+            {
+                BinaryFormatter encoder = new BinaryFormatter();
+
+                clientes = (List<Cliente>)encoder.Deserialize(stream);
+
+                if(clientes == null)
+                {
+                    clientes = new List<Cliente>();
+                }
+            }
+            catch(Exception)
+            {
+                clientes = new List<Cliente>();
+            }
+            stream.Close();
         }
     }
 }
