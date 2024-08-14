@@ -12,7 +12,38 @@ namespace ConsoleApp1
         enum Menu { listagem = 1, adicionar, remover, entrada, saida, sair};
         static void Main(string[] args)
         {
+            bool escolheuSair = false;
 
+            while (!escolheuSair)
+            {
+                Console.WriteLine("< Sistema de estoque >");
+                Console.WriteLine("\n1-listagem\n2-adicionar\n-remover\n4-entrada\n5-saida\n6-sair");
+                string str = Console.ReadLine();
+                int intop = int.Parse(str);
+                Menu escolha = (Menu)intop;
+                if (intop > 0 && 7 > intop)
+                {
+                    switch (escolha)
+                    {
+                        case Menu.listagem:
+                            break;
+                        case Menu.adicionar:
+                            break;
+                        case Menu.remover:
+                            break;
+                        case Menu.entrada:
+                            break;
+                        case Menu.saida:
+                            escolheuSair = true;
+                            break;
+                    }
+                }
+                else
+                {
+                    escolheuSair = true;
+                }
+                Console.Clear();
+            }
         }
     }
 }
