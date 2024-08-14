@@ -21,7 +21,8 @@ namespace ConsoleApp1
                 string str = Console.ReadLine();
                 int intop = int.Parse(str);
                 Menu escolha = (Menu)intop;
-                if (intop > 0 && 7 > intop)
+
+                if (intop > 0 && intop > 7)
                 {
                     switch (escolha)
                     {
