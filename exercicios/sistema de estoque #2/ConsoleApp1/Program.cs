@@ -97,5 +97,10 @@ namespace ConsoleApp1
             }
             stream.Close();
         }
+        static void Cadastrar()
+        {
+            Console.WriteLine("Cadastrando Produtos");
+            Console.WriteLine("");
+        }
     }
 }
