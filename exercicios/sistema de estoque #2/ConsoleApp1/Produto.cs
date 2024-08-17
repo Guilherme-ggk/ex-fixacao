@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+    [System.Serializable]
     abstract class Produto
     {
         public string nome;

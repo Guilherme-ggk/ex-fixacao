@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+    [System.Serializable]
     internal class ProdutoFisico : Produto, IEstoque
     {
         public float frete;

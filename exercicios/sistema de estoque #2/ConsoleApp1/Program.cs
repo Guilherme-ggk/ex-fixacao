@@ -4,11 +4,13 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.ComTypes;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+    [System.Serializable]
     internal class Program
     {
         static List<IEstoque>  produtos = new List<IEstoque>();
@@ -38,8 +40,10 @@ namespace ConsoleApp1
                             Remover();
                             break;
                         case Menu.entrada:
+                            Entrada();
                             break;
                         case Menu.saida:
+                            Saida();
                             break;
                         case Menu.sair:
                             escolheuSair = true;
@@ -164,7 +168,24 @@ namespace ConsoleApp1
         static void Entrada()
         {
             Listagem();
-            Console.WriteLine("");
+            Console.WriteLine("Qual produto deseja dar entrada ?");
+            int id = int.Parse(Console.ReadLine());
+            if(id >= 0 && id < produtos.Count)
+            {
+                produtos[id].AdicionarEntrada();
+                Salvar();
+            }
+        }
+        static void Saida()
+        {
+            Listagem();
+            Console.WriteLine("Qual produto deseja dar saída ?");
+            int id = int.Parse(Console.ReadLine());
+            if (id >= 0 && id < produtos.Count)
+            {
+                produtos[id].AdicionarSaida();
+                Salvar();
+            }
         }
 
     }
