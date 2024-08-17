@@ -11,8 +11,10 @@ namespace ConsoleApp1
         public float frete;
         private int estoque;
 
-        public ProdutoFisico(float frete)
+        public ProdutoFisico(string nome, float preco, float frete)
         {
+            this.nome = nome;
+            this.preco = preco;
             this.frete = frete;
         }
 

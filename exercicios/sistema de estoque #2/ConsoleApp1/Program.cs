@@ -32,6 +32,7 @@ namespace ConsoleApp1
                             Listagem();
                             break;
                         case Menu.cadastrar:
+                            Cadastrar();
                             break;
                         case Menu.remover:
                             Remover();
@@ -107,5 +108,64 @@ namespace ConsoleApp1
             }
             stream.Close();
         }
+        static void Cadastrar()
+        {
+            Console.WriteLine("Qual produto deseja cadastrar?");
+            Console.WriteLine("1-Produto Fisico\n2-Ebook\n3-Curso");
+            int intop = int.Parse(Console.ReadLine());
+             switch(intop)
+            {
+                case 1:
+                    Cadpf();
+                    break;
+                case 2:
+                    Cadeb();
+                    break;
+                case 3:
+                    Cadcs();
+                    break;
+            }
+        }
+        static void Cadpf()
+        {
+            Console.WriteLine("Nome:");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Preço:");
+            float preco = float.Parse(Console.ReadLine());
+            float frete = float.Parse(Console.ReadLine());
+            ProdutoFisico pf = new ProdutoFisico(nome, preco, frete);
+            produtos.Add(pf);
+            Salvar();
+        }
+        static void Cadcs()
+        {
+            Console.WriteLine("Nome:");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Preço:");
+            float preco = float.Parse(Console.ReadLine());
+            Console.WriteLine("Autor:");
+            string autor= Console.ReadLine();
+            Curso cs = new Curso(nome, preco, autor);
+            produtos.Add(cs);
+            Salvar();
+        }
+        static void Cadeb()
+        {
+            Console.WriteLine("Nome:");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Preço:");
+            float preco = float.Parse(Console.ReadLine());
+            Console.WriteLine("Autor:");
+            string autor = Console.ReadLine();
+            Ebook eb = new Ebook(nome, preco, autor);
+            produtos.Add(eb);
+            Salvar();
+        }
+        static void Entrada()
+        {
+            Listagem();
+            Console.WriteLine("");
+        }
+
     }
 }
