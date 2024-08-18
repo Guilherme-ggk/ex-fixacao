@@ -77,6 +77,7 @@
             this.BTNconsultaSituação.TabIndex = 4;
             this.BTNconsultaSituação.Text = "Consulta Situação";
             this.BTNconsultaSituação.UseVisualStyleBackColor = true;
+            this.BTNconsultaSituação.Click += new System.EventHandler(this.BTNconsultaSituação_Click);
             // 
             // Form1
             // 

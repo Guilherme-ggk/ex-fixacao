@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -26,5 +27,22 @@ namespace Aprendendo_sobre_DLL_unimake
         {
 
         }
+
+        private void BTNconsultaSituação_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //  Caminho para o certificado digital
+
+        private static string PathCertificadoDigital { get; set; } = "@D:projeto/dll/certificado";
+
+        // senha do certificado digital
+        private static string SenhaCertificadoDigital { get; set; } = "123456789";
+
+
+        // field pasta para os certificados digitais
+
+        private static  X509Certificate2 CertificadoSelecionadoField;
     }
 }
