@@ -1,0 +1,22 @@
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\Aprendendo sobre DLL unimake.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\Aprendendo sobre DLL unimake.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\Aprendendo sobre DLL unimake.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\Newtonsoft.Json.dll
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\Unimake.Business.DFe.dll
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\Unimake.Cryptography.dll
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\Unimake.Extensions.dll
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\Unimake.Security.Platform.dll
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\Unimake.Utils.dll
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\Newtonsoft.Json.xml
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\Unimake.Business.DFe.xml
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\bin\Debug\Unimake.Security.Platform.xml
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\obj\Debug\Aprendendo sobre DLL unimake.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\obj\Debug\Aprendendo_sobre_DLL_unimake.Form1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\obj\Debug\Aprendendo_sobre_DLL_unimake.Properties.Resources.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\obj\Debug\Aprendendo sobre DLL unimake.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\obj\Debug\Aprendendo sobre DLL unimake.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\obj\Debug\Aprenden.6B783FCE.Up2Date
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\obj\Debug\Aprendendo sobre DLL unimake.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Aprendendo sobre DLL unimake\obj\Debug\Aprendendo sobre DLL unimake.pdb
