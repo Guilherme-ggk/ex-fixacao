@@ -8,6 +8,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Unimake.Security.Platform;
 
 namespace Aprendendo_sobre_DLL_unimake
 {
@@ -43,6 +44,22 @@ namespace Aprendendo_sobre_DLL_unimake
 
         // field pasta para os certificados digitais
 
-        private static  X509Certificate2 CertificadoSelecionadoField;
+        private static X509Certificate2 CertificadoSelecionadoField;
+
+        public static X509Certificate2 CertificadoSelecionado
+        {
+            get
+            {
+                if (CertificadoSelecionado == null)
+                {
+                    CertificadoSelecionadoField = new CertificadoDigital().CarregarCertificadoDigitalA1(PathCertificadoDigital, SenhaCertificadoDigital);
+
+                }
+                return CertificadoSelecionadoField;
+
+            }
+            private set => throw new Exception("Não é possivel carregar!");
+        }
+
     }
 }
