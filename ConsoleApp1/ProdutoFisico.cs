@@ -21,12 +21,20 @@ namespace ConsoleApp1
 
         public void AdicionarEntrada()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Quanto estoque deseja dar entrada?");
+            int valor = int.Parse(Console.ReadLine());
+            estoque += valor;
+            Console.WriteLine("Registrado!");
+            Console.ReadLine();
         }
 
         public void AdicionarSaida()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Quanto estoque deseja dar saída?");
+            int valor = int.Parse(Console.ReadLine());
+            estoque -= valor;
+            Console.WriteLine("Registrado!");
+            Console.ReadLine();
         }
 
         public void Exibir()

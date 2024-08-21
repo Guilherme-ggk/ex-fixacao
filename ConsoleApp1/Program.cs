@@ -90,7 +90,8 @@ namespace ConsoleApp1
 
             ProdutoFisico pf = new ProdutoFisico(nome, preco, frete);
             produtos.Add(pf);
-            
+            Salvar();
+
         }
         static void CadCurso()
         {
@@ -105,6 +106,7 @@ namespace ConsoleApp1
 
             Curso cs = new Curso(nome, preco, autor);
             produtos.Add(cs);
+            Salvar();
 
         }
         static void CadEbook()
@@ -120,6 +122,7 @@ namespace ConsoleApp1
 
             Ebook eb = new Ebook(nome, preco, autor);
             produtos.Add(eb);
+            Salvar();
 
         }
         static void Listagem()
@@ -149,6 +152,7 @@ namespace ConsoleApp1
             if(id >= 0 && id < produtos.Count)
             {
                 produtos.RemoveAt(id);
+                Salvar();
             }
         }
         static void Entrada()
@@ -159,6 +163,7 @@ namespace ConsoleApp1
             if (id >= 0 && id < produtos.Count)
             {
                 produtos[id].AdicionarEntrada();
+                Salvar();
             }
         }
         static void Saida()
@@ -169,6 +174,7 @@ namespace ConsoleApp1
             if (id >= 0 && id < produtos.Count)
             {
                 produtos[id].AdicionarSaida();
+                Salvar();
             }
         }
         static void Salvar()

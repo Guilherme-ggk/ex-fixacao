@@ -20,17 +20,32 @@ namespace ConsoleApp1
 
         public void AdicionarEntrada()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Quantas vagas deseja adicionar?");
+            int valor = int.Parse(Console.ReadLine());
+            vagas += valor;
+            Console.WriteLine("Registrado!");
+            Console.ReadLine();
         }
 
         public void AdicionarSaida()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Quantas vagas deseja dar saída?");
+            int valor = int.Parse(Console.ReadLine());
+            vagas -= valor;
+            Console.WriteLine("Registrado!");
+            Console.ReadLine();
         }
 
         public void Exibir()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("=======================================");
+
+            Console.WriteLine($"Nome: {nome}");
+            Console.WriteLine($"Preço: {preco}");
+            Console.WriteLine($"Autor: {autor}");
+            Console.WriteLine($"Vagas: {vagas}");
+            Console.ReadLine();
+
         }
     }
 }
