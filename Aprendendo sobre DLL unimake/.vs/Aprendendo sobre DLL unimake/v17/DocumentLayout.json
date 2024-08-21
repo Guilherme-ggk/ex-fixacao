@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{F33CAD90-FBC1-4165-895C-F18E34B611ED}|Aprendendo sobre DLL unimake.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F33CAD90-FBC1-4165-895C-F18E34B611ED}|Aprendendo sobre DLL unimake.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\aprendendo sobre dll unimake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F33CAD90-FBC1-4165-895C-F18E34B611ED}|Aprendendo sobre DLL unimake.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Aprendendo sobre DLL unimake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F33CAD90-FBC1-4165-895C-F18E34B611ED}|Aprendendo sobre DLL unimake.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Aprendendo sobre DLL unimake\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAswEAAAAABAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAzwEAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T18:46:39.436Z",
               "EditorCaption": ""
@@ -42,8 +42,7 @@
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Aprendendo sobre DLL unimake\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T18:42:45.477Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-18T18:42:45.477Z"
             }
           ]
         }
