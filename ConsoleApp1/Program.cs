@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+    [System.Serializable]
     internal class Program
     {
         enum Menu { listagem = 1, cadastrar, remover, entrada, saida, sair };
