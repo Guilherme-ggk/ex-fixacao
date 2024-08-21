@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal interface IEstoque1
+    internal class Ebook
     {
-        void Exibir();
-        void AdicionarEntrada();
-        void AdicionarSaida();
     }
 }

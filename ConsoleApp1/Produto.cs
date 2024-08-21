@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal interface IEstoque1
+    abstract class Produto
     {
-        void Exibir();
-        void AdicionarEntrada();
-        void AdicionarSaida();
+        public string nome;
+        public float preco;
     }
 }
