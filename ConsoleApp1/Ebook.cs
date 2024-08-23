@@ -35,13 +35,13 @@ namespace ConsoleApp1
 
         public void Exibir()
         {
-            Console.WriteLine("=======================================");
+          
 
             Console.WriteLine($"Nome: {nome}");
             Console.WriteLine($"Preço: {preco}");
             Console.WriteLine($"Autor: {autor}");
             Console.WriteLine($"Vendas: {vendas}");
-            Console.ReadLine();
+           
         }
     }
 }

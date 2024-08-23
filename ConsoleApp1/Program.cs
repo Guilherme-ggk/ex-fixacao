@@ -18,6 +18,7 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
+            Carregar();
             bool escolheuSair = false;
             while (escolheuSair == false)
             {
@@ -133,7 +134,9 @@ namespace ConsoleApp1
                 int id = 0;
                 foreach (IEstoque1 produto in produtos)
                 {
+                    Console.WriteLine("=====================================");
                     Console.WriteLine($"ID: {id}");
+                    Console.WriteLine("---");
                     produto.Exibir();
                     id++;
                 }
