@@ -9,6 +9,6 @@ namespace PrimeiraDll
 {
     public class Class1
     {
-        //
+        //criando dll pra whatsapp
     }
 }
