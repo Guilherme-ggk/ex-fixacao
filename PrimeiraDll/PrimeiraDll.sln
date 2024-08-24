@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiraDll", "PrimeiraDll.csproj", "{83CF33AF-CCA7-41CC-8055-98056359A14B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83CF33AF-CCA7-41CC-8055-98056359A14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CF33AF-CCA7-41CC-8055-98056359A14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CF33AF-CCA7-41CC-8055-98056359A14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CF33AF-CCA7-41CC-8055-98056359A14B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C0C470B-E26D-42F6-A0F1-9D69101E4FB3}
+	EndGlobalSection
+EndGlobal
