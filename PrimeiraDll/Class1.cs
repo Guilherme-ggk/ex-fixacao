@@ -10,5 +10,7 @@ namespace PrimeiraDll
     public class Class1
     {
         //criando dll pra whatsapp
+        //nessa dll vou usar a API do WhatsApp business para enviar pdfs direto para o cliente
+
     }
 }
