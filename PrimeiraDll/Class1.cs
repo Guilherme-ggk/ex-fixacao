@@ -11,7 +11,7 @@ namespace PrimeiraDll
     {
         //criando dll pra whatsapp
         //nessa dll vou usar a API do WhatsApp business para enviar pdfs direto para o cliente
-        //mudança de planos
+        //mudança de planos, agora só vou tentar criar um código em vb6 para fazer o envio do pdf
 
     }
 }
