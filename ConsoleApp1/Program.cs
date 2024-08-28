@@ -205,7 +205,7 @@ namespace ConsoleApp1
                 }
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 produtos = new List<IEstoque1>();
             }
