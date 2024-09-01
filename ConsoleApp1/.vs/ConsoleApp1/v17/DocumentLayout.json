@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:ebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\iestoque1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +23,8 @@
       "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\Produto.cs",
               "RelativeDocumentMoniker": "Produto.cs",
@@ -64,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ProdutoFisico.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\ProdutoFisico.cs",
               "RelativeDocumentMoniker": "ProdutoFisico.cs",
@@ -77,20 +77,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Curso.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\Curso.cs",
               "RelativeDocumentMoniker": "Curso.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\Curso.cs",
               "RelativeToolTip": "Curso.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAxAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T14:00:31.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IEstoque1.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\IEstoque1.cs",
               "RelativeDocumentMoniker": "IEstoque1.cs",
@@ -103,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAL4AAAAAAAAAAADgv9kAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T13:57:42.929Z",
               "EditorCaption": ""
