@@ -10,16 +10,21 @@ namespace MinhaPrimeiraAPIC_.Controllers
     {
         // GET: api/<UsuarioController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<UsuarioController> Get()
         {
-            return new string[] { "value1", "value2" };
+            List<UsuarioController> usuarioC = new List<UsuarioController>();
+
+            return usuarioC;
+
         }
 
         // GET api/<UsuarioController>/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            UsuarioController usuario = new UsuarioController();
+
+            return usuario;
         }
 
         // POST api/<UsuarioController>
