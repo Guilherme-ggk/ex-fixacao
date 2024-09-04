@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VZJjGDeVkHXf5BQ7dRdC6yrubjikUZi6AOqxDfiRyv6Oa6FXpzpsLb3Pv/qkeI27cTSUm76d9+pZnoXGEwycPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\30755\\OneDrive\\Área de Trabalho\\ex-fixacao\\MinhaPrimeiraAPI\\MinhaPrimeiraAPI.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\30755\\.nuget\\packages\\fsharp.core\\8.0.200\\fsharp.core.8.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}
