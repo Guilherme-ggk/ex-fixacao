@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MinhaPrimeiraAPIC#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51fdce33808b8c54ea7c5c698d74bfb30f7ecbe0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ff52e1b702e659f36da220e17052f5d95db08f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinhaPrimeiraAPIC#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinhaPrimeiraAPIC#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
