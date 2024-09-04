@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\MinhaPrimeiraAPIC#\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7A524AB3-086F-4A37-84D8-5471EDF32BDE}|MinhaPrimeiraAPIC#.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\minhaprimeiraapic#\\models\\usuariomodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A524AB3-086F-4A37-84D8-5471EDF32BDE}|MinhaPrimeiraAPIC#.csproj|solutionrelative:models\\usuariomodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A524AB3-086F-4A37-84D8-5471EDF32BDE}|MinhaPrimeiraAPIC#.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\minhaprimeiraapic#\\minhaprimeiraapic#.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A524AB3-086F-4A37-84D8-5471EDF32BDE}|MinhaPrimeiraAPIC#.csproj|solutionrelative:minhaprimeiraapic#.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A524AB3-086F-4A37-84D8-5471EDF32BDE}|MinhaPrimeiraAPIC#.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\minhaprimeiraapic#\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A524AB3-086F-4A37-84D8-5471EDF32BDE}|MinhaPrimeiraAPIC#.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UsuarioModels.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\MinhaPrimeiraAPIC#\\Models\\UsuarioModels.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioModels.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\MinhaPrimeiraAPIC#\\Models\\UsuarioModels.cs",
+              "RelativeToolTip": "Models\\UsuarioModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T23:07:56.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MinhaPrimeiraAPIC#",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\MinhaPrimeiraAPIC#\\MinhaPrimeiraAPIC#.csproj",
+              "RelativeDocumentMoniker": "MinhaPrimeiraAPIC#.csproj",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\MinhaPrimeiraAPIC#\\MinhaPrimeiraAPIC#.csproj",
+              "RelativeToolTip": "MinhaPrimeiraAPIC#.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T23:06:43.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\MinhaPrimeiraAPIC#\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
