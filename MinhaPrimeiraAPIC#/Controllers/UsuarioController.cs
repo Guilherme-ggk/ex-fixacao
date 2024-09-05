@@ -15,15 +15,17 @@ namespace MinhaPrimeiraAPIC_.Controllers
         {
             List<UsuarioModels> usuarioModel = new List<UsuarioModels>();
 
+            usuarioModel.Add(new UsuarioModels() { id = 1, nome = "Guilherme Henrique", email = "30755guilherme@gmail.com"});
+
             return usuarioModel;
 
         }
 
         // GET api/<UsuarioController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public UsuarioModels Get(int id)
         {
-            UsuarioController usuario = new UsuarioController();
+            UsuarioModels usuario = new UsuarioModels() { id = 1, nome = "Guilherme Henrique", email = "30755guilherme@gmail.com" };
 
             return usuario;
         }
@@ -36,8 +38,9 @@ namespace MinhaPrimeiraAPIC_.Controllers
 
         // PUT api/<UsuarioController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void Put(int id, [FromBody] UsuarioModels usuario)
         {
+
         }
 
         // DELETE api/<UsuarioController>/5
