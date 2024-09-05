@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MinhaPrimeiraAPIC_.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -10,11 +11,11 @@ namespace MinhaPrimeiraAPIC_.Controllers
     {
         // GET: api/<UsuarioController>
         [HttpGet]
-        public IEnumerable<UsuarioController> Get()
+        public IEnumerable<UsuarioModels> Get()
         {
-            List<UsuarioController> usuarioC = new List<UsuarioController>();
+            List<UsuarioModels> usuarioModel = new List<UsuarioModels>();
 
-            return usuarioC;
+            return usuarioModel;
 
         }
 
