@@ -32,7 +32,7 @@ namespace MinhaPrimeiraAPIC_.Controllers
 
         // POST api/<UsuarioController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] UsuarioModels usuario)
         {
         }
 
