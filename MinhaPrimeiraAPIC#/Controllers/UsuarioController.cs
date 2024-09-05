@@ -23,7 +23,7 @@ namespace MinhaPrimeiraAPIC_.Controllers
 
         // GET api/<UsuarioController>/5
         [HttpGet("{id}")]
-        public UsuarioModels Get(int id)
+        public UsuarioModels Get(int id) // pega
         {
             UsuarioModels usuario = new UsuarioModels() { id = 1, nome = "Guilherme Henrique", email = "30755guilherme@gmail.com" };
 
@@ -32,19 +32,19 @@ namespace MinhaPrimeiraAPIC_.Controllers
 
         // POST api/<UsuarioController>
         [HttpPost]
-        public void Post([FromBody] UsuarioModels usuario)
+        public void Post([FromBody] UsuarioModels usuario) //FROM BODY é onde quero que seja executado a parte principal
         {
-        }
+        } //Post manda requisição, posta algo
 
         // PUT api/<UsuarioController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] UsuarioModels usuario)
+        public void Put(int id, [FromBody] UsuarioModels usuario) //atualiza
         {
 
         }
 
         // DELETE api/<UsuarioController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete("{id}")]// deleta
         public void Delete(int id)
         {
         }
