@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Calculadora_port\bin\Debug\Calculadora_port.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Calculadora_port\bin\Debug\Calculadora_port.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Calculadora_port\bin\Debug\Calculadora_port.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Calculadora_port\obj\Debug\Calculadora_port.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Calculadora_port\obj\Debug\Calculadora_port.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Calculadora_port\obj\Debug\Calculadora_port.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Calculadora_port\obj\Debug\Calculadora_port.pdb
