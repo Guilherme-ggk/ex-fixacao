@@ -26,6 +26,7 @@ namespace Calculadora_port
                         Soma();
                         break;
                     case Menu.sub:
+                        Sub();
                         break;
                     case Menu.div:
                         break;
@@ -40,11 +41,44 @@ namespace Calculadora_port
                         break;
 
                 }
+                Console.Clear();
             }
         }
         static void Soma()
         {
-            Console.WriteLine("");
+            Console.WriteLine("< Soma de dois números >");
+            Console.WriteLine("Digite o primeiro número:");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número:");
+            int b = int.Parse(Console.ReadLine());
+            int resultado = a + b;
+            Console.WriteLine($"O resultado é {resultado}.");
+            Console.WriteLine("Aperte enter para voltar ao menu.");
+            Console.ReadLine();
+        }
+        static void Sub()
+        {
+            Console.WriteLine("< Subtração de dois números >");
+            Console.WriteLine("Digite o primeiro número:");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número:");
+            int b = int.Parse(Console.ReadLine());
+            int resultado = a - b;
+            Console.WriteLine($"O resultado é {resultado}.");
+            Console.WriteLine("Aperte enter para voltar ao menu.");
+            Console.ReadLine();
+        }
+        static void Div()
+        {
+            Console.WriteLine("< Divisão de dois números >");
+            Console.WriteLine("Digite o primeiro número:");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número:");
+            int b = int.Parse(Console.ReadLine());
+            int resultado = a / b;
+            Console.WriteLine($"O resultado é {resultado}.");
+            Console.WriteLine("Aperte enter para voltar ao menu.");
+            Console.ReadLine();
         }
     }
 }
