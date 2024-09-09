@@ -10,6 +10,9 @@ namespace Calculadora_port
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(" <<< Calculadora >>>");
+            Console.WriteLine("1-Soma\n2-Subtração\n3-Divisão\n4-Multiplicação\n5-Potência\n6-Raiz\n7-Sair");
+
         }
     }
 }
