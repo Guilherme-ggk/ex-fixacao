@@ -29,12 +29,16 @@ namespace Calculadora_port
                         Sub();
                         break;
                     case Menu.div:
+                        Div();
                         break;
                     case Menu.mult:
+                        Mult();
                         break;
                     case Menu.pot:
+                        Pot();
                         break;
                     case Menu.raiz:
+                        Raiz();
                         break;
                     case Menu.sair:
                         escolheuSair = true;
@@ -75,7 +79,41 @@ namespace Calculadora_port
             int a = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite o segundo número:");
             int b = int.Parse(Console.ReadLine());
-            int resultado = a / b;
+            float resultado = (float)a / (float)b;
+            Console.WriteLine($"O resultado é {resultado}.");
+            Console.WriteLine("Aperte enter para voltar ao menu.");
+            Console.ReadLine();
+        }
+        static void Mult()
+        {
+            Console.WriteLine("< Multiplicação de dois números >");
+            Console.WriteLine("Digite o primeiro número:");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número:");
+            int b = int.Parse(Console.ReadLine());
+            int resultado = a * b;
+            Console.WriteLine($"O resultado é {resultado}.");
+            Console.WriteLine("Aperte enter para voltar ao menu.");
+            Console.ReadLine();
+        }
+        static void Pot()
+        {
+            Console.WriteLine("< Potência de dois números >");
+            Console.WriteLine("Digite o número base:");
+            int numBase = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o número expoente:");
+            int numExpo = int.Parse(Console.ReadLine());
+            int resultado = (int)Math.Pow(numBase, numExpo);
+            Console.WriteLine($"O resultado é {resultado}.");
+            Console.WriteLine("Aperte enter para voltar ao menu.");
+            Console.ReadLine();
+        }
+        static void Raiz()
+        {
+            Console.WriteLine("< Raiz de um número >");
+            Console.WriteLine("Digite o número:");
+            int a = int.Parse(Console.ReadLine());
+            double resultado = Math.Sqrt(a);
             Console.WriteLine($"O resultado é {resultado}.");
             Console.WriteLine("Aperte enter para voltar ao menu.");
             Console.ReadLine();
