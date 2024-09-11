@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,9 +38,10 @@ namespace Gestor_de_Clientes_no_console
                     case Menu.remover:
                         break;
                     case Menu.sair:
-
+                        escolheuSair = true;
                         break;
                 }
+                Console.Clear();
                 Console.ReadLine();
             }
 
@@ -62,6 +64,21 @@ namespace Gestor_de_Clientes_no_console
                 Console.WriteLine("Nenhum cliente cadastrado!");
             }
             Console.ReadLine();
+        }
+        static void Remover()
+        {
+            Listagem();
+            Console.WriteLine("Qual cliente deseja remover?(id)");
+            int id = int.Parse(Console.ReadLine());
+            if(id > 0 && id < clientes.Count)
+            {
+                clientes.RemoveAt(id);
+                Salvar();
+            }
+        }
+        static void Salvar()
+        {
+            FileStream stream = new FileStream("");
         }
     }
 }
