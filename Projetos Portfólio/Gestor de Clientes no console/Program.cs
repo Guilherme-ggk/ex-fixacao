@@ -12,7 +12,18 @@ namespace Gestor_de_Clientes_no_console
         static void Main(string[] args)
         {
             Console.WriteLine("Gestor de Clientes");
-            Console.WriteLine("");
+            Console.WriteLine("1-listagem\n2-Adicionar\n3-remover\n4-sair");
+            int intop = int.Parse(Console.ReadLine());
+            Menu opcao = (Menu)intop;
+            switch(opcao)
+            {
+                case Menu.listagem:
+                    break;
+                case Menu.adicionar:
+
+
+
+            }
         }
     }
 }
