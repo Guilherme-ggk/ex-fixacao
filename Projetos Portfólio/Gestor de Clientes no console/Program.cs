@@ -8,6 +8,14 @@ namespace Gestor_de_Clientes_no_console
 {
     internal class Program
     {
+        struct Clientes
+        {
+            public string nome;
+            public int idade;
+        }
+
+        static List<Clientes> clientes = new List<Clientes>();
+
         enum Menu { listagem = 1, adicionar, remover, sair };
         static void Main(string[] args)
         {
@@ -18,12 +26,33 @@ namespace Gestor_de_Clientes_no_console
             switch(opcao)
             {
                 case Menu.listagem:
+                    Listagem();
                     break;
                 case Menu.adicionar:
-
-
-
+                    break;
+                case Menu.remover:
+                    break;
+                case Menu.sair:
+                    break;
             }
+        }
+        static void Listagem()
+        {
+            if(clientes.Count > 0)
+            {
+                int id = 0;
+                foreach (Clientes pessoa in clientes)
+                {
+                    Console.WriteLine($"ID: {id}");
+                    Console.WriteLine(pessoa);
+                    id++;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Nenhum cliente cadastrado!");
+            }
+            Console.ReadLine();
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Gestor de Clientes no console\bin\Debug\Gestor de Clientes no console.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Gestor de Clientes no console\bin\Debug\Gestor de Clientes no console.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Gestor de Clientes no console\bin\Debug\Gestor de Clientes no console.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Gestor de Clientes no console\obj\Debug\Gestor de Clientes no console.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Gestor de Clientes no console\obj\Debug\Gestor de Clientes no console.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Gestor de Clientes no console\obj\Debug\Gestor de Clientes no console.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Gestor de Clientes no console\obj\Debug\Gestor de Clientes no console.pdb
