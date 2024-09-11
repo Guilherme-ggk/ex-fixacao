@@ -19,22 +19,31 @@ namespace Gestor_de_Clientes_no_console
         enum Menu { listagem = 1, adicionar, remover, sair };
         static void Main(string[] args)
         {
-            Console.WriteLine("Gestor de Clientes");
-            Console.WriteLine("1-listagem\n2-Adicionar\n3-remover\n4-sair");
-            int intop = int.Parse(Console.ReadLine());
-            Menu opcao = (Menu)intop;
-            switch(opcao)
+            bool escolheuSair = false;
+
+            while (!escolheuSair)
             {
-                case Menu.listagem:
-                    Listagem();
-                    break;
-                case Menu.adicionar:
-                    break;
-                case Menu.remover:
-                    break;
-                case Menu.sair:
-                    break;
+                Console.WriteLine("Gestor de Clientes");
+                Console.WriteLine("1-listagem\n2-Adicionar\n3-remover\n4-sair");
+                int intop = int.Parse(Console.ReadLine());
+                Menu opcao = (Menu)intop;
+                switch (opcao)
+                {
+                    case Menu.listagem:
+                        Listagem();
+                        break;
+                    case Menu.adicionar:
+                        break;
+                    case Menu.remover:
+                        break;
+                    case Menu.sair:
+
+                        break;
+                }
+                Console.ReadLine();
             }
+
+            
         }
         static void Listagem()
         {
