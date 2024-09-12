@@ -29,6 +29,7 @@ namespace gestor_de_clientes
                 switch (opcao)
                 {
                     case Menu.lista:
+                        Listagem();
                         break;
                     case Menu.adicionar:
                         break;
@@ -38,9 +39,34 @@ namespace gestor_de_clientes
                         escolheuSair = true;
                         break;
                 }
+                Console.Clear();
             }
 
             
+        }
+        static void Listagem()
+        {
+            if(clientes.Count > 0)
+            {
+                int ID = 0;
+                foreach (Clientes cliente in clientes)
+                {
+                    Console.WriteLine($"ID: {ID}");
+                    Console.WriteLine(cliente);
+                    ID++;
+                }
+            }
+
+            else
+            {
+                Console.WriteLine("Nenhum cliente cadastrado!");
+            }
+            Console.ReadLine();
+        }
+        static void Remover()
+        {
+            Listagem();
+            Console.WriteLine("Qual cliente deseja remover?");
         }
     }
 }

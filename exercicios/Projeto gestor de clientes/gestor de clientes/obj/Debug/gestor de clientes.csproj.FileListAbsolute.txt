@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\Projeto gestor de clientes\gestor de clientes\bin\Debug\gestor de clientes.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\Projeto gestor de clientes\gestor de clientes\bin\Debug\gestor de clientes.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\Projeto gestor de clientes\gestor de clientes\bin\Debug\gestor de clientes.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\Projeto gestor de clientes\gestor de clientes\obj\Debug\gestor de clientes.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\Projeto gestor de clientes\gestor de clientes\obj\Debug\gestor de clientes.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\Projeto gestor de clientes\gestor de clientes\obj\Debug\gestor de clientes.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\exercicios\Projeto gestor de clientes\gestor de clientes\obj\Debug\gestor de clientes.pdb
