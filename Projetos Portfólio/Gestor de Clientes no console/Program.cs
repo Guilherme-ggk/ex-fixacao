@@ -11,6 +11,7 @@ namespace Gestor_de_Clientes_no_console
 {
     internal class Program
     {
+        [System.Serializable]
         struct Clientes
         {
             public string nome;
@@ -22,6 +23,7 @@ namespace Gestor_de_Clientes_no_console
         enum Menu { listagem = 1, adicionar, remover, sair };
         static void Main(string[] args)
         {
+            Carregar();
             bool escolheuSair = false;
 
             while (!escolheuSair)
@@ -36,8 +38,10 @@ namespace Gestor_de_Clientes_no_console
                         Listagem();
                         break;
                     case Menu.adicionar:
+                        Adicionar();
                         break;
                     case Menu.remover:
+                        Remover();
                         break;
                     case Menu.sair:
                         escolheuSair = true;
@@ -66,6 +70,22 @@ namespace Gestor_de_Clientes_no_console
                 Console.WriteLine("Nenhum cliente cadastrado!");
             }
             Console.ReadLine();
+        }
+        static void Adicionar()
+        {
+            Clientes cliente = new Clientes();
+
+            Console.WriteLine($"Nome:");
+            cliente.nome = Console.ReadLine();
+           
+            Console.WriteLine($"Idade:");
+            cliente.idade = int.Parse(Console.ReadLine());
+
+            clientes.Add(cliente);
+            Console.ReadLine ();
+            Salvar();
+            
+
         }
         static void Remover()
         {
