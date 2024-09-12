@@ -26,7 +26,7 @@ namespace gestor_de_clientes
             bool escolheuSair = false;
             while (escolheuSair == false)
             {
-                Console.WriteLine("Gestor de Clientes");
+                Console.WriteLine("<< Gestor de Clientes >>");
                 Console.WriteLine("1-listagem\n2-adicionar\n3-remover\n4-sair");
                 int intop = int.Parse(Console.ReadLine());
                 Menu opcao = (Menu)intop;
@@ -65,7 +65,7 @@ namespace gestor_de_clientes
             Salvar();
 
             Console.WriteLine("Cliente adicionado com sucesso!");
-            Console.WriteLine("Aperte enter para voltar ao menu");
+            Console.WriteLine("Aperte enter para voltar ao menu.");
 
 
         }
