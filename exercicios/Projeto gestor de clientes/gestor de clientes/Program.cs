@@ -20,6 +20,7 @@ namespace gestor_de_clientes
         enum Menu { lista = 1, adicionar, remover, sair};
         static void Main(string[] args)
         {
+            Carregar();
             bool escolheuSair = false;
             while (escolheuSair == false)
             {
@@ -91,6 +92,13 @@ namespace gestor_de_clientes
             try
             {
                 BinaryFormatter encoder = new BinaryFormatter();
+
+                clientes = (List<Clientes>)encoder.Deserialize(stream);
+                if(clientes == null)
+                {
+                    clientes = new List<Clientes>();
+                }
+
             }
             catch (Exception)
             {
