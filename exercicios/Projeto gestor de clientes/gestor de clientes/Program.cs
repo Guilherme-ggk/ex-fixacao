@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace gestor_de_clientes
 {
+    [System.Serializable]
     internal class Program
     {
         struct Clientes
@@ -35,8 +36,10 @@ namespace gestor_de_clientes
                         Listagem();
                         break;
                     case Menu.adicionar:
+                        Adicionar();
                         break;
                     case Menu.remover:
+                        Remover();
                         break;
                     case Menu.sair:
                         escolheuSair = true;
@@ -46,6 +49,24 @@ namespace gestor_de_clientes
             }
 
             
+        }
+        static void Adicionar()
+        {
+            Clientes cliente = new Clientes();
+
+            Console.WriteLine("Nome:");
+            cliente.nome = Console.ReadLine();
+
+            Console.WriteLine("Idade:");
+            cliente.idade = int.Parse(Console.ReadLine());
+
+            clientes.Add(cliente);
+            Salvar();
+
+            Console.WriteLine("Cliente adicionado com sucesso!");
+            Console.WriteLine("Aperte enter para voltar ao menu");
+
+
         }
         static void Listagem()
         {
