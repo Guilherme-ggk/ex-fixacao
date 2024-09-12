@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -66,7 +68,36 @@ namespace gestor_de_clientes
         static void Remover()
         {
             Listagem();
-            Console.WriteLine("Qual cliente deseja remover?");
+            Console.WriteLine("Qual cliente deseja remover?(id)");
+            int id = int.Parse(Console.ReadLine());
+            if(id > 0 && id < clientes.Count)
+            {
+                clientes.RemoveAt(id);
+                Salvar();
+            }
+        }
+        static void Salvar()
+        {
+            FileStream stream = new FileStream("clientes.30",FileMode.OpenOrCreate);
+            BinaryFormatter encoder = new BinaryFormatter();
+
+            encoder.Serialize(stream, clientes);
+            
+            stream.Close();
+        }
+        static void Carregar()
+        {
+            FileStream stream = new FileStream("clientes.30", FileMode.OpenOrCreate);
+            try
+            {
+                BinaryFormatter encoder = new BinaryFormatter();
+            }
+            catch (Exception)
+            {
+                clientes = new List<Clientes>();
+            }
+
+            stream.Close();
         }
     }
 }
