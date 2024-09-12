@@ -8,9 +8,10 @@ using System.Threading.Tasks;
 
 namespace gestor_de_clientes
 {
-    [System.Serializable]
+    
     internal class Program
     {
+        [System.Serializable]
         struct Clientes
         {
             public string nome;
@@ -76,7 +77,8 @@ namespace gestor_de_clientes
                 foreach (Clientes cliente in clientes)
                 {
                     Console.WriteLine($"ID: {ID}");
-                    Console.WriteLine(cliente);
+                    Console.WriteLine(cliente.nome);
+                    Console.WriteLine(cliente.idade);
                     ID++;
                 }
             }
@@ -92,7 +94,7 @@ namespace gestor_de_clientes
             Listagem();
             Console.WriteLine("Qual cliente deseja remover?(id)");
             int id = int.Parse(Console.ReadLine());
-            if(id > 0 && id < clientes.Count)
+            if(id >= 0 && id < clientes.Count)
             {
                 clientes.RemoveAt(id);
                 Salvar();
