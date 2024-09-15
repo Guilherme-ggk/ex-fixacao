@@ -20,8 +20,19 @@ header
 }
 #ler-blog
 {
-    background-color: blue;
-    width: 450px;
+    background-image: url(images/pexels-connor-danylenko-534256-2538121.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;   
     border-radius: 15px;
     height: 200px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:right;
+    padding: 20px;
+}
+footer
+{
+    background-color: black;
+    color: aliceblue;
 }
