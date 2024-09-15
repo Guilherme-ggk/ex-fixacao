@@ -1,6 +1,27 @@
 @charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 header
 {
-    
+    background-color: aqua;
+    height: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.162);
+}
+#title
+{
+    color: aliceblue;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+}
+#ler-blog
+{
+    background-color: blue;
+    width: 450px;
+    border-radius: 15px;
+    height: 200px;
 }
