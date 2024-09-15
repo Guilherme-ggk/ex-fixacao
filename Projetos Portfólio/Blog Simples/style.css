@@ -40,4 +40,7 @@ footer
 {
     background-color: black;
     color: aliceblue;
+    font-family:     Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
 }
