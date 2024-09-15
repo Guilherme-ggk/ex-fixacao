@@ -6,7 +6,7 @@
 
 header
 {
-    background-color: aqua;
+    
     height: 200px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.162);
 }
@@ -30,6 +30,11 @@ header
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align:right;
     padding: 20px;
+}
+#img1
+{
+width: 800px;
+background-size: contain;
 }
 footer
 {
