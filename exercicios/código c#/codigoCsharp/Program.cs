@@ -714,7 +714,7 @@ namespace ConsoleApp1
 
         //Irtefaces
 
-        string FormaSelecionada = "RETANGULO";
+        string FormaSelecionada = "ETANGULO";
 
         //  Line, Tri, Circ,    Rect,   Quad
         IDrawable shape = new Line();
