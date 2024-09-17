@@ -680,7 +680,7 @@ namespace ConsoleApp1
             Console.WriteLine("Login com senha...");
         }
 
-        static void Logar(string email, string codigo) //Logar(string, string)
+        static void ogar(string email, string codigo) //Logar(string, string)
         {
             Console.WriteLine("Email e senha");
         }
