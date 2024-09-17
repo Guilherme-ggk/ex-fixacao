@@ -693,7 +693,7 @@ namespace ConsoleApp1
         static void Logar(int pin, string email)// Logar(pin, email)
         {
             Console.WriteLine("pin, email");
-        }
+        }a
 
 
 
