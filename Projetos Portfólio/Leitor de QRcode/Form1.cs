@@ -21,9 +21,9 @@ namespace Leitor_de_QRcode
 
         private void button1_Click(object sender, EventArgs e)
         {
-            GerarQRcode();
+            GerarQRcode(pictureBox1);
         }
-        static void GerarQRcode()
+        public static void GerarQRcode(PictureBox pictureBox1)
         {
             Url generator = new Url("https://www.youtube.com/watch?v=8pexV0Bi6Rg");
 
@@ -36,7 +36,6 @@ namespace Leitor_de_QRcode
             
 
         }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
