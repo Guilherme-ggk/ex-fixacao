@@ -25,7 +25,7 @@ namespace Leitor_de_QRcode
         }
         public static void GerarQRcode(PictureBox pictureBox1)
         {
-            Url generator = new Url("https://www.youtube.com/watch?v=8pexV0Bi6Rg");
+            Url generator = new Url("https://youtube.com");
 
             string payload = generator.ToString();
 
