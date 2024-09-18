@@ -21,17 +21,24 @@ namespace Leitor_de_QRcode
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            GerarQRcode();
         }
         static void GerarQRcode()
         {
-            Url generator = new Url("");
+            Url generator = new Url("https://www.youtube.com/watch?v=8pexV0Bi6Rg");
 
             string payload = generator.ToString();
 
             QRCodeGenerator codeGenerator = new QRCodeGenerator();
             QRCodeData qrdata = codeGenerator.CreateQrCode(payload, QRCodeGenerator.ECCLevel.Q);
+            QRCode qrCode = new QRCode(qrdata);
+            pictureBox1.Image = qrCode.GetGraphic(4);
+            
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
         }
     }
