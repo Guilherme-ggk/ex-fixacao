@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QRCoder;
 
 namespace Leitor_de_QRcode
 {
@@ -15,6 +17,22 @@ namespace Leitor_de_QRcode
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+        static void GerarQRcode()
+        {
+            Url generator = new Url("");
+
+            string payload = generator.ToString();
+
+            QRCodeGenerator codeGenerator = new QRCodeGenerator();
+            QRCodeData qrdata = codeGenerator.CreateQrCode(payload, QRCodeGenerator.ECCLevel.Q);
+
+
         }
     }
 }

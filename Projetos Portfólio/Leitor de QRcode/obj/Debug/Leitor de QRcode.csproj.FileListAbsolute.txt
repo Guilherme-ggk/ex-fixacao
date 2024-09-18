@@ -1,0 +1,12 @@
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Leitor de QRcode\bin\Debug\Leitor de QRcode.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Leitor de QRcode\bin\Debug\Leitor de QRcode.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Leitor de QRcode\bin\Debug\Leitor de QRcode.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Leitor de QRcode\bin\Debug\QRCoder.dll
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Leitor de QRcode\obj\Debug\Leitor de QRcode.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Leitor de QRcode\obj\Debug\Leitor_de_QRcode.Form1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Leitor de QRcode\obj\Debug\Leitor_de_QRcode.Properties.Resources.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Leitor de QRcode\obj\Debug\Leitor de QRcode.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Leitor de QRcode\obj\Debug\Leitor de QRcode.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Leitor de QRcode\obj\Debug\Leitor d.27BBAA15.Up2Date
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Leitor de QRcode\obj\Debug\Leitor de QRcode.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Leitor de QRcode\obj\Debug\Leitor de QRcode.pdb
