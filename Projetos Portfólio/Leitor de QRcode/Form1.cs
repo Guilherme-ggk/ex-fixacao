@@ -19,26 +19,5 @@ namespace Leitor_de_QRcode
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            GerarQRcode(pictureBox1);
-        }
-        public static void GerarQRcode(PictureBox pictureBox1)
-        {
-            Url generator = new Url("https://youtube.com");
-
-            string payload = generator.ToString();
-
-            QRCodeGenerator codeGenerator = new QRCodeGenerator();
-            QRCodeData qrdata = codeGenerator.CreateQrCode(payload, QRCodeGenerator.ECCLevel.Q);
-            QRCode qrCode = new QRCode(qrdata);
-            pictureBox1.Image = qrCode.GetGraphic(4);
-            
-
-        }
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
