@@ -25,11 +25,19 @@ namespace Leitor_de_QRcode
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            GerarQRcode(pictureBox1);
         }
-        static void GerarQRcode()
+        static void GerarQRcode(PictureBox pictureBox1)
         {
+            Url generator = new Url("https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile");
 
+            string payload = generator.ToString();
+
+            QRCodeGenerator QRCODER = new QRCodeGenerator();
+            QRCodeData qrcoderDATAR = QRCODER.CreateQrCode(payload, QRCodeGenerator.ECCLevel.Q);
+            QRCode qrcod = new QRCode(qrcoderDATAR);
+            pictureBox1.Image = qrcod.GetGraphic(4);
+            
         }
     }
 }
