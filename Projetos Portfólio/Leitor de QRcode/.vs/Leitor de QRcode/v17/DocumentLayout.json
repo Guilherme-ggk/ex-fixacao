@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{32E5600D-76D1-49B0-9883-D572A3275C62}|Leitor de QRcode.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32E5600D-76D1-49B0-9883-D572A3275C62}|Leitor de QRcode.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\leitor de qrcode\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{32E5600D-76D1-49B0-9883-D572A3275C62}|Leitor de QRcode.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\Leitor de QRcode\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{32E5600D-76D1-49B0-9883-D572A3275C62}|Leitor de QRcode.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -30,9 +30,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\Leitor de QRcode\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\Leitor de QRcode\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AQIAABQAAAAAAAAAAAAnwBsAAAA4AAAA",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\Leitor de QRcode\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAnwBkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T21:44:36.399Z",
               "EditorCaption": ""
@@ -43,11 +43,10 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\Leitor de QRcode\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\Leitor de QRcode\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\Leitor de QRcode\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T21:41:16.518Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-18T21:41:16.518Z"
             }
           ]
         }
