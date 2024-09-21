@@ -9,13 +9,16 @@ namespace ConsoleApp1
     internal class Curso : Produto, IEstoque
     {
         public string autor;
-        private int 
+        private int vagas;
 
-        public Curso()
+        public Curso(string nome, float preco, string autor)
         {
+            this.nome = nome;
+            this.preco = preco;
+            this.autor = autor;
         }
 
-        private int public void AdicionarEntrada()
+        public void AdicionarEntrada()
         {
             throw new NotImplementedException();
         }

@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\consoleapp1\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|solutionrelative:curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\consoleapp1\\ebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|solutionrelative:ebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\consoleapp1\\produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|solutionrelative:produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\consoleapp1\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|solutionrelative:produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\consoleapp1\\iestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|solutionrelative:iestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\consoleapp1\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|solutionrelative:curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\consoleapp1\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|solutionrelative:produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\consoleapp1\\produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|solutionrelative:produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\consoleapp1\\ebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7070B0-218C-43E7-A5A2-863C0823529E}|ConsoleApp1.csproj|solutionrelative:ebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,46 +55,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ProdutoFisico.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\ConsoleApp1\\ProdutoFisico.cs",
               "RelativeDocumentMoniker": "ProdutoFisico.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\ConsoleApp1\\ProdutoFisico.cs",
               "RelativeToolTip": "ProdutoFisico.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAJAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T01:18:02.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Ebook.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\ConsoleApp1\\Ebook.cs",
               "RelativeDocumentMoniker": "Ebook.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\ConsoleApp1\\Ebook.cs",
               "RelativeToolTip": "Ebook.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T01:17:56.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Curso.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\ConsoleApp1\\Curso.cs",
               "RelativeDocumentMoniker": "Curso.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\ConsoleApp1\\Curso.cs",
               "RelativeToolTip": "Curso.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T01:17:41.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "IEstoque.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\ConsoleApp1\\IEstoque.cs",
               "RelativeDocumentMoniker": "IEstoque.cs",
@@ -107,13 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAuwCkAAAANAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAkwGsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T01:00:01.243Z",
               "EditorCaption": ""
