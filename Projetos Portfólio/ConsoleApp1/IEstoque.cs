@@ -8,5 +8,8 @@ namespace ConsoleApp1
 {
     internal interface IEstoque
     {
+        void AdicionarEntrada();
+        void AdicionarSaida();
+        void Exibir();
     }
 }

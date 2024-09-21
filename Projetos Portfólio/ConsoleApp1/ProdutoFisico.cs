@@ -6,7 +6,31 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Class1
+    internal class ProdutoFisico : Produto, IEstoque
     {
+        public float frete;
+        private int estoque;
+
+        public ProdutoFisico(string nome, float preco, float frete)
+        {
+            this.nome = nome;
+            this.preco = preco;
+            this.frete = frete;
+        }
+
+        public void AdicionarEntrada()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AdicionarSaida()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Exibir()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
