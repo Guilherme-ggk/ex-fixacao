@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\consoleapp1\\ebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:ebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +19,8 @@
       "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:produtofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\iestoque1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:iestoque1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|solutionrelative:curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{261EC307-4AD2-487C-8DD7-BCE8E0CFEF1C}|ConsoleApp1.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +34,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\Produto.cs",
               "RelativeDocumentMoniker": "Produto.cs",
@@ -46,25 +50,24 @@
               "RelativeToolTip": "Produto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T14:01:28.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T14:01:28.034Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Ebook.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\Ebook.cs",
               "RelativeDocumentMoniker": "Ebook.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\Ebook.cs",
               "RelativeToolTip": "Ebook.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwAkAAAAqAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T14:01:15.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProdutoFisico.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\ProdutoFisico.cs",
               "RelativeDocumentMoniker": "ProdutoFisico.cs",
@@ -77,20 +80,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Curso.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\Curso.cs",
               "RelativeDocumentMoniker": "Curso.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\Curso.cs",
               "RelativeToolTip": "Curso.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCwAAAAxAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T14:00:31.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IEstoque1.cs",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\ConsoleApp1\\IEstoque1.cs",
               "RelativeDocumentMoniker": "IEstoque1.cs",
@@ -98,8 +101,7 @@
               "RelativeToolTip": "IEstoque1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T13:58:41.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T13:58:41.539Z"
             },
             {
               "$type": "Document",
@@ -111,8 +113,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAAACkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T13:57:42.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T13:57:42.929Z"
             }
           ]
         }
