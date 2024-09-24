@@ -638,7 +638,7 @@ namespace ConsoleApp1
                 // com base para os parametros do construtor 
             }
         }
-e
+
         //Tabelas 
 
         //usando a classe DataTable, DataColumn e DataRow, já consgigo criar uma tabela, que tbm pode converter para arquivos XML e XMLSchema
