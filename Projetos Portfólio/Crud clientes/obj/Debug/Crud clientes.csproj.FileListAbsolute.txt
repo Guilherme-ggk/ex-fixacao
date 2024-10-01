@@ -1,0 +1,10 @@
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Crud clientes\bin\Debug\Crud clientes.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Crud clientes\bin\Debug\Crud clientes.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Crud clientes\bin\Debug\Crud clientes.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Crud clientes\obj\Debug\Crud clientes.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Crud clientes\obj\Debug\Crud_clientes.Form1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Crud clientes\obj\Debug\Crud_clientes.Properties.Resources.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Crud clientes\obj\Debug\Crud clientes.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Crud clientes\obj\Debug\Crud clientes.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Crud clientes\obj\Debug\Crud clientes.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Projetos Portfólio\Crud clientes\obj\Debug\Crud clientes.pdb
