@@ -17,9 +17,6 @@ namespace Crud_clientes
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

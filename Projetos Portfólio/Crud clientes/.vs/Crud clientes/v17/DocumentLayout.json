@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\Crud clientes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B623507-E65D-4FBE-B9EE-D83C1BF3D0AD}|Crud clientes.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\crud clientes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4B623507-E65D-4FBE-B9EE-D83C1BF3D0AD}|Crud clientes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4B623507-E65D-4FBE-B9EE-D83C1BF3D0AD}|Crud clientes.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\crud clientes\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B623507-E65D-4FBE-B9EE-D83C1BF3D0AD}|Crud clientes.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B623507-E65D-4FBE-B9EE-D83C1BF3D0AD}|Crud clientes.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\crud clientes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B623507-E65D-4FBE-B9EE-D83C1BF3D0AD}|Crud clientes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B623507-E65D-4FBE-B9EE-D83C1BF3D0AD}|Crud clientes.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\projetos portf\u00F3lio\\crud clientes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4B623507-E65D-4FBE-B9EE-D83C1BF3D0AD}|Crud clientes.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\Crud clientes\\DataBase.cs",
+              "RelativeDocumentMoniker": "DataBase.cs",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\Crud clientes\\DataBase.cs",
+              "RelativeToolTip": "DataBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T13:22:45.771Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,14 +49,14 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\Crud clientes\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAlwBAAAAAEAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAlwBMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T12:46:55.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\Projetos Portf\u00F3lio\\Crud clientes\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
