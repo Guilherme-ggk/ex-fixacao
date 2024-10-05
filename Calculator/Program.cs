@@ -50,5 +50,35 @@ namespace Calculator
             Console.WriteLine(r);
             Console.ReadKey();
         }
+        static void Sub()
+        {
+            Console.WriteLine("Digite o primeiro número:");
+            int n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número:");
+            int n2 = int.Parse(Console.ReadLine());
+            int r = n1 - n2;
+            Console.WriteLine(r);
+            Console.ReadKey();
+        }
+        static void Mult()
+        {
+            Console.WriteLine("Digite o primeiro número:");
+            int n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número:");
+            int n2 = int.Parse(Console.ReadLine());
+            int r = n1 * n2;
+            Console.WriteLine(r);
+            Console.ReadKey();
+        }
+        static void Soma()
+        {
+            Console.WriteLine("Digite o primeiro número:");
+            int n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número:");
+            int n2 = int.Parse(Console.ReadLine());
+            int r = n1 + n2;
+            Console.WriteLine(r);
+            Console.ReadKey();
+        }
     }
 }
