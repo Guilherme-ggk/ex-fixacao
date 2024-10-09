@@ -1,0 +1,7 @@
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Conversor de temperatura\bin\Debug\Conversor de temperatura.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Conversor de temperatura\bin\Debug\Conversor de temperatura.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Conversor de temperatura\bin\Debug\Conversor de temperatura.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Conversor de temperatura\obj\Debug\Conversor de temperatura.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Conversor de temperatura\obj\Debug\Conversor de temperatura.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Conversor de temperatura\obj\Debug\Conversor de temperatura.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Conversor de temperatura\obj\Debug\Conversor de temperatura.pdb
