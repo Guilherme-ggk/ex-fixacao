@@ -8,3 +8,4 @@ C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\obj\Debug\Telad
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\obj\Debug\TeladeLogin.csproj.CoreCompileInputs.cache
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\obj\Debug\TeladeLogin.exe
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\obj\Debug\TeladeLogin.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\obj\Debug\TeladeLogin.AreaRestrita.resources

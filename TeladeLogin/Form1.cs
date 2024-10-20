@@ -28,13 +28,22 @@ namespace TeladeLogin
             {
                 if(TxtUsuario.Text.Equals("Guilherme") && TxtSenha.Text.Equals("123"))
                 {
+                    // vai para a aréa restrita
+                    var menu = new AreaRestrita();
+                    menu.Show();
+
+                    this.Visible = false;
+
 
                 }
                 else
                 {
-                    MessageBox.Show("Desculpe.", "usúario ou senha inválidos",
+                    MessageBox.Show("usúario ou senha inválidos", "Desculpe",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error);
+
+                    TxtUsuario.Focus();
+                    TxtSenha.Text = "";
                 }
             }
             catch(Exception ex)
