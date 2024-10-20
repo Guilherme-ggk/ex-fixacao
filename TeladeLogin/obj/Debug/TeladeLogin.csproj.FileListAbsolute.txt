@@ -1,0 +1,10 @@
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\bin\Debug\TeladeLogin.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\bin\Debug\TeladeLogin.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\bin\Debug\TeladeLogin.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\obj\Debug\TeladeLogin.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\obj\Debug\TeladeLogin.Form1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\obj\Debug\TeladeLogin.Properties.Resources.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\obj\Debug\TeladeLogin.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\obj\Debug\TeladeLogin.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\obj\Debug\TeladeLogin.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLogin\obj\Debug\TeladeLogin.pdb
