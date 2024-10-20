@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TxtEntrar = new System.Windows.Forms.Button();
+            this.TxtSenha = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TxtUsuario = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.button1 = new System.Windows.Forms.Button();
+            this.TxtCancelar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.TxtCancelar);
+            this.groupBox1.Controls.Add(this.TxtEntrar);
+            this.groupBox1.Controls.Add(this.TxtSenha);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.TxtUsuario);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(6, 31);
             this.groupBox1.Name = "groupBox1";
@@ -54,21 +54,23 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "formulário";
             // 
-            // button2
+            // TxtEntrar
             // 
-            this.button2.Location = new System.Drawing.Point(358, 165);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 38);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "entrar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.TxtEntrar.Location = new System.Drawing.Point(358, 165);
+            this.TxtEntrar.Name = "TxtEntrar";
+            this.TxtEntrar.Size = new System.Drawing.Size(136, 38);
+            this.TxtEntrar.TabIndex = 5;
+            this.TxtEntrar.Text = "entrar";
+            this.TxtEntrar.UseVisualStyleBackColor = true;
+            this.TxtEntrar.Click += new System.EventHandler(this.TxtEntrar_Click);
             // 
-            // textBox2
+            // TxtSenha
             // 
-            this.textBox2.Location = new System.Drawing.Point(133, 116);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(426, 22);
-            this.textBox2.TabIndex = 3;
+            this.TxtSenha.Location = new System.Drawing.Point(133, 116);
+            this.TxtSenha.Name = "TxtSenha";
+            this.TxtSenha.Size = new System.Drawing.Size(426, 22);
+            this.TxtSenha.TabIndex = 3;
+            this.TxtSenha.UseSystemPasswordChar = true;
             // 
             // label2
             // 
@@ -79,12 +81,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "senha";
             // 
-            // textBox1
+            // TxtUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(133, 57);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(426, 22);
-            this.textBox1.TabIndex = 1;
+            this.TxtUsuario.Location = new System.Drawing.Point(133, 57);
+            this.TxtUsuario.Name = "TxtUsuario";
+            this.TxtUsuario.Size = new System.Drawing.Size(426, 22);
+            this.TxtUsuario.TabIndex = 1;
             // 
             // label1
             // 
@@ -95,14 +97,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "usúario";
             // 
-            // button1
+            // TxtCancelar
             // 
-            this.button1.Location = new System.Drawing.Point(167, 165);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 38);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "cancelar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.TxtCancelar.Location = new System.Drawing.Point(167, 165);
+            this.TxtCancelar.Name = "TxtCancelar";
+            this.TxtCancelar.Size = new System.Drawing.Size(136, 38);
+            this.TxtCancelar.TabIndex = 1;
+            this.TxtCancelar.Text = "cancelar";
+            this.TxtCancelar.UseVisualStyleBackColor = true;
+            this.TxtCancelar.Click += new System.EventHandler(this.TxtCancelar_Click);
             // 
             // Form1
             // 
@@ -123,12 +126,12 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TxtSenha;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TxtUsuario;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button TxtEntrar;
+        private System.Windows.Forms.Button TxtCancelar;
     }
 }
 
