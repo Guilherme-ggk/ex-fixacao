@@ -94,6 +94,7 @@
             this.BtnEntrar.TabIndex = 4;
             this.BtnEntrar.Text = "entrar";
             this.BtnEntrar.UseVisualStyleBackColor = true;
+            this.BtnEntrar.Click += new System.EventHandler(this.BtnEntrar_Click);
             // 
             // BtnCancelar
             // 
@@ -103,6 +104,7 @@
             this.BtnCancelar.TabIndex = 3;
             this.BtnCancelar.Text = "cancelar";
             this.BtnCancelar.UseVisualStyleBackColor = true;
+            this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
             // Form1
             // 

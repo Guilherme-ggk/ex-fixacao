@@ -21,5 +21,38 @@ namespace Tela_Login_C_
         {
 
         }
+
+        private void BtnEntrar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if(TxtUser.Text.Equals("Giovana") && TxtPass.Text.Equals("22"))
+                {
+                    var menu = new Pagina();
+
+                    menu.Show();
+
+                    this.Visible = false;
+                }
+                else
+                {
+                    MessageBox.Show("invalid username or password!", "",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("invalid username or password!",
+                    ex.Message,
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
+        }
+
+        private void BtnCancelar_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
