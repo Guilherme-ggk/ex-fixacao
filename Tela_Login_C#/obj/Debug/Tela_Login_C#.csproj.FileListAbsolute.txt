@@ -8,3 +8,4 @@ C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\obj\Debug\Tel
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\obj\Debug\Tela_Login_C#.csproj.CoreCompileInputs.cache
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\obj\Debug\Tela_Login_C#.exe
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\obj\Debug\Tela_Login_C#.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\obj\Debug\Tela_Login_C_.Pagina.resources
