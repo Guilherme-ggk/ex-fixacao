@@ -16,5 +16,10 @@ namespace Tela_Login_C_
         {
             InitializeComponent();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
