@@ -1,0 +1,10 @@
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\bin\Debug\Tela_Login_C#.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\bin\Debug\Tela_Login_C#.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\bin\Debug\Tela_Login_C#.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\obj\Debug\Tela_Login_C#.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\obj\Debug\Tela_Login_C_.Form1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\obj\Debug\Tela_Login_C_.Properties.Resources.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\obj\Debug\Tela_Login_C#.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\obj\Debug\Tela_Login_C#.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\obj\Debug\Tela_Login_C#.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\Tela_Login_C#\obj\Debug\Tela_Login_C#.pdb
