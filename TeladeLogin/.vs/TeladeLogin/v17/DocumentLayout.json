@@ -3,16 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\TeladeLogin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|TeladeLogin||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F8CB7E-F883-40AA-AE74-9907C720CCD9}|TeladeLogin.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\TeladeLogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78F8CB7E-F883-40AA-AE74-9907C720CCD9}|TeladeLogin.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78F8CB7E-F883-40AA-AE74-9907C720CCD9}|TeladeLogin.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\teladelogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{78F8CB7E-F883-40AA-AE74-9907C720CCD9}|TeladeLogin.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78F8CB7E-F883-40AA-AE74-9907C720CCD9}|TeladeLogin.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\teladelogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78F8CB7E-F883-40AA-AE74-9907C720CCD9}|TeladeLogin.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78F8CB7E-F883-40AA-AE74-9907C720CCD9}|TeladeLogin.csproj|C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\TeladeLogin\\arearestrita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78F8CB7E-F883-40AA-AE74-9907C720CCD9}|TeladeLogin.csproj|solutionrelative:arearestrita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78F8CB7E-F883-40AA-AE74-9907C720CCD9}|TeladeLogin.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\teladelogin\\arearestrita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{78F8CB7E-F883-40AA-AE74-9907C720CCD9}|TeladeLogin.csproj|solutionrelative:arearestrita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{78F8CB7E-F883-40AA-AE74-9907C720CCD9}|TeladeLogin.csproj|c:\\users\\30755\\onedrive\\\u00E1rea de trabalho\\ex-fixacao\\teladelogin\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +36,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "TeladeLogin",
+              "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\TeladeLogin\\TeladeLogin.csproj",
+              "RelativeDocumentMoniker": "TeladeLogin.csproj",
+              "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\TeladeLogin\\TeladeLogin.csproj",
+              "RelativeToolTip": "TeladeLogin.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-21T23:04:58.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AreaRestrita.cs [Design]",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\TeladeLogin\\AreaRestrita.cs",
               "RelativeDocumentMoniker": "AreaRestrita.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\TeladeLogin\\AreaRestrita.cs [Design]",
               "RelativeToolTip": "AreaRestrita.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T17:17:58.174Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-20T17:17:58.174Z"
             },
             {
               "$type": "Document",
@@ -48,14 +65,14 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\TeladeLogin\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAnwCIAAAApAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAIA2wCIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T16:50:22.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\TeladeLogin\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
