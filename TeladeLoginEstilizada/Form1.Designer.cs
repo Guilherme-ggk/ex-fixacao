@@ -155,7 +155,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.Window;
-            this.button3.Location = new System.Drawing.Point(480, 314);
+            this.button3.Location = new System.Drawing.Point(480, 375);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(134, 44);
             this.button3.TabIndex = 10;
