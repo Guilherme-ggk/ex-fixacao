@@ -8,3 +8,4 @@ C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\obj\D
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\obj\Debug\TeladeLoginEstilizada.csproj.CoreCompileInputs.cache
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\obj\Debug\TeladeLoginEstilizada.exe
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\obj\Debug\TeladeLoginEstilizada.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\obj\Debug\TeladeLoginEstilizada.Pagina.resources

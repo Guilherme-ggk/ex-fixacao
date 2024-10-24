@@ -104,6 +104,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "entrar";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
             // 
@@ -114,6 +115,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(203, 21);
             this.textBox1.TabIndex = 5;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
@@ -138,6 +140,7 @@
             this.textBox2.Size = new System.Drawing.Size(203, 21);
             this.textBox2.TabIndex = 7;
             this.textBox2.UseSystemPasswordChar = true;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label4
             // 

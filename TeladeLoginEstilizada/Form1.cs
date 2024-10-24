@@ -31,5 +31,47 @@ namespace TeladeLoginEstilizada
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if(textBox1.Text.Equals("Guilherme") && textBox2.Text.Equals("30755"))
+                {
+                    var Menu = new Pagina();
+
+                    Menu.Show();
+
+                    this.Visible = false;
+                }
+                else
+                {
+                    MessageBox.Show("invalid user or password!",
+                        "Message",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+
+                    textBox1.Focus();
+                    textBox2.Text = "";
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("invalid user or password!",
+                        ex.Message,
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
