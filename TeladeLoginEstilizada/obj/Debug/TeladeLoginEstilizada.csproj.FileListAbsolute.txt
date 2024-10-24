@@ -1,0 +1,10 @@
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\bin\Debug\TeladeLoginEstilizada.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\bin\Debug\TeladeLoginEstilizada.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\bin\Debug\TeladeLoginEstilizada.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\obj\Debug\TeladeLoginEstilizada.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\obj\Debug\TeladeLoginEstilizada.Form1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\obj\Debug\TeladeLoginEstilizada.Properties.Resources.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\obj\Debug\TeladeLoginEstilizada.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\obj\Debug\TeladeLoginEstilizada.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\obj\Debug\TeladeLoginEstilizada.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\TeladeLoginEstilizada\obj\Debug\TeladeLoginEstilizada.pdb
