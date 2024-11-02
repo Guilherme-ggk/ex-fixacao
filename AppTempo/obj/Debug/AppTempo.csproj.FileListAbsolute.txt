@@ -1,0 +1,10 @@
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\bin\Debug\AppTempo.exe.config
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\bin\Debug\AppTempo.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\bin\Debug\AppTempo.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.csproj.AssemblyReference.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.Form1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.Properties.Resources.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.csproj.GenerateResource.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.csproj.CoreCompileInputs.cache
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.exe
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.pdb
