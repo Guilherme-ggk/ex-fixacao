@@ -35,10 +35,11 @@
             // 
             this.BtnFechar.BackColor = System.Drawing.Color.LightCoral;
             this.BtnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnFechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnFechar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnFechar.Location = new System.Drawing.Point(771, -2);
+            this.BtnFechar.Location = new System.Drawing.Point(766, -4);
             this.BtnFechar.Name = "BtnFechar";
-            this.BtnFechar.Size = new System.Drawing.Size(30, 23);
+            this.BtnFechar.Size = new System.Drawing.Size(41, 27);
             this.BtnFechar.TabIndex = 0;
             this.BtnFechar.Text = "X";
             this.BtnFechar.UseVisualStyleBackColor = false;
