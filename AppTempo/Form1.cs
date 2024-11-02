@@ -17,15 +17,16 @@ namespace AppTempo
             InitializeComponent();
         }
 
-        private void BtnFechar_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+     
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
            
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
