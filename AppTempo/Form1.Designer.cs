@@ -99,10 +99,11 @@
             // 
             // textBox2
             // 
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.textBox2.Location = new System.Drawing.Point(192, 274);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(202, 22);
+            this.textBox2.Size = new System.Drawing.Size(202, 15);
             this.textBox2.TabIndex = 6;
             this.textBox2.UseSystemPasswordChar = true;
             // 
