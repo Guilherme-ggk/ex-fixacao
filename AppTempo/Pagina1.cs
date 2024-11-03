@@ -21,5 +21,15 @@ namespace AppTempo
         {
             this.Close();
         }
+
+        private void Pagina1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.MinimumSize = new System.Drawing.Size();
+        }
     }
 }
