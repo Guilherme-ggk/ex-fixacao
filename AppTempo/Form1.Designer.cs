@@ -49,7 +49,7 @@
             this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(325, 338);
+            this.button1.Location = new System.Drawing.Point(346, 369);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 36);
             this.button1.TabIndex = 1;
@@ -62,7 +62,7 @@
             this.button2.BackColor = System.Drawing.Color.Black;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(144, 338);
+            this.button2.Location = new System.Drawing.Point(163, 369);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(101, 36);
             this.button2.TabIndex = 2;
@@ -99,11 +99,10 @@
             // 
             // textBox2
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.textBox2.Location = new System.Drawing.Point(192, 274);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(202, 15);
+            this.textBox2.Size = new System.Drawing.Size(198, 22);
             this.textBox2.TabIndex = 6;
             this.textBox2.UseSystemPasswordChar = true;
             // 
