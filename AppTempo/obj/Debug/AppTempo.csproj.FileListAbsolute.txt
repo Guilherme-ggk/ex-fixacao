@@ -8,3 +8,4 @@ C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.csproj.CoreCompileInputs.cache
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.exe
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.pdb
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.Pagina1.resources
