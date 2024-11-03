@@ -16,9 +16,6 @@ namespace AppTempo
         {
             InitializeComponent();
         }
-
-     
-
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
