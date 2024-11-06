@@ -42,11 +42,10 @@ namespace ConsoleApp3
                         EscolheuSair = true;
                         break;
                 }
+                Console.ReadLine();
             }
+            Console.ReadLine();
         }
-
-
-
         static void Remover()
         {
             Console.WriteLine("Qual cliente deseja remover?(id)");
@@ -57,11 +56,6 @@ namespace ConsoleApp3
                 Salvar();
             }
         }
-            
-        
-
-
-
 
 
         static void Salvar()
