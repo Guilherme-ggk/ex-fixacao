@@ -121,6 +121,8 @@ namespace ConsoleApp3
                 produtos.RemoveAt(id);
                 Salvar();
             }
+            Console.WriteLine("Removido com sucesso!");
+            Console.ReadKey();
         }
         static void AddSaida()
         {
