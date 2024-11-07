@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
-    internal interface Interface1
+    internal interface IEstoque
     {
+        void Exibir();
+        void AddEntrada();
+        void AddSaida();
     }
 }

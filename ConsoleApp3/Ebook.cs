@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
-    internal class Curso: Produto, IEstoque
+    internal class Ebook: Produto, IEstoque
     {
         public string autor;
-        private int vagas;
+        private int vendas;
 
-        public Curso(string nome, float preco, string autor)
+        public Ebook(string nome, float preco, string autor)
         {
             this.nome = nome;
             this.preco = preco;
@@ -20,18 +20,14 @@ namespace ConsoleApp3
 
         public void AddEntrada()
         {
-            Console.WriteLine($"Quantas vagas deseja dar entrada para o curso {nome}?");
-            int valor = int.Parse(Console.ReadLine());
-            vagas += valor;
-            Console.WriteLine("Adicionado com sucesso!");
-            Console.ReadKey();
+            Console.WriteLine("Impossível adicionar entrada em Ebook, produto digital.");
         }
 
         public void AddSaida()
         {
-            Console.WriteLine($"Quantas vagas deseja dar saída para o curso {nome}?");
+            Console.WriteLine($"Quantas vendas deseja adicionar para o ebook {nome}?");
             int valor = int.Parse(Console.ReadLine());
-            vagas -= valor;
+            vendas += valor;
             Console.WriteLine("Adicionado com sucesso!");
             Console.ReadKey();
         }
@@ -41,7 +37,7 @@ namespace ConsoleApp3
             Console.WriteLine($"Nome: {nome}");
             Console.WriteLine($"Preço: {preco}");
             Console.WriteLine($"Autor: {autor}");
-            Console.WriteLine($"Vagas: {vagas}");
+            Console.WriteLine($"Vendas: {vendas}");
             Console.ReadKey();
         }
     }

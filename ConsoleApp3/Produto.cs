@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
-    internal class Produto
+    abstract class Produto
     {
+        public string nome;
+        public float preco;
     }
 }
