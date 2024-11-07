@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
+    [System.Serializable]
     internal class Program
     {
         enum Menu { listagem = 1, cadastro, remover, saida, entrada, sair };
@@ -17,6 +18,7 @@ namespace ConsoleApp3
 
         static void Main(string[] args)
         {
+            Carregar();
             bool EscolheuSair = false;
             while (EscolheuSair == false)
             {
@@ -33,6 +35,7 @@ namespace ConsoleApp3
                             Listagem();
                             break;
                         case Menu.cadastro:
+                            CadastroProdutos();
                             break;
                         case Menu.remover:
                             Remover();
@@ -47,12 +50,66 @@ namespace ConsoleApp3
                             EscolheuSair = true;
                             break;
                     }
+                    Console.Clear();
                 }
                 else
                 {
                     EscolheuSair = true;
                 }
             }
+        }
+        static void CadastroProdutos()
+        {
+            Console.WriteLine("1-Produto Físico\n2-Ebook\n3-Curso");
+            int intop = int.Parse(Console.ReadLine());
+           switch(intop)
+            {
+                case 1:
+                    CDProdutoFisico();
+                break;
+                case 2:
+                    CDEbook();
+                break;
+                case 3:
+                    CDCurso();
+                break;
+            }
+        }
+        static void CDEbook()
+        {
+            Console.WriteLine("Nome:");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Preço:");
+            float preco = float.Parse(Console.ReadLine());
+            Console.WriteLine("Autor:");
+            string autor = Console.ReadLine();
+            Ebook eb = new Ebook(nome, preco, autor);
+            produtos.Add(eb);
+            Salvar();
+        }
+        static void CDCurso()
+        {
+            Console.WriteLine("Nome:");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Preço:");
+            float preco = float.Parse(Console.ReadLine());
+            Console.WriteLine("Autor:");
+            string autor = Console.ReadLine();
+            Curso cs = new Curso(nome, preco, autor);
+            produtos.Add(cs);
+            Salvar();
+        }
+        static void CDProdutoFisico()
+        {
+            Console.WriteLine("Nome:");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Preço:");
+            float preco = float.Parse(Console.ReadLine());
+            Console.WriteLine("Frete:");
+            float frete = float.Parse(Console.ReadLine());
+            ProdutoFisico pf = new ProdutoFisico(nome, preco, frete);
+            produtos.Add(pf);
+            Salvar();
         }
         static void Remover()
         {

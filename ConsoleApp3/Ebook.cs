@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
+    [System.Serializable]
     internal class Ebook: Produto, IEstoque
     {
         public string autor;
