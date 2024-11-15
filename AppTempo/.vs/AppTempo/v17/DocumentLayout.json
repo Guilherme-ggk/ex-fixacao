@@ -40,9 +40,10 @@
               "RelativeDocumentMoniker": "Pagina1.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\AppTempo\\Pagina1.cs",
               "RelativeToolTip": "Pagina1.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAlwB8AAAA5AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAIA3wB8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T15:46:07.114Z"
+              "WhenOpened": "2024-11-03T15:46:07.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -53,7 +54,8 @@
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\AppTempo\\Pagina1.cs [Design]",
               "RelativeToolTip": "Pagina1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T15:41:46.276Z"
+              "WhenOpened": "2024-11-03T15:41:46.276Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -63,7 +65,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\AppTempo\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAArwCAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T23:01:35.552Z",
               "EditorCaption": ""
@@ -77,7 +79,8 @@
               "ToolTip": "C:\\Users\\30755\\OneDrive\\\u00C1rea de Trabalho\\ex-fixacao\\AppTempo\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T22:59:06.774Z"
+              "WhenOpened": "2024-11-02T22:59:06.774Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

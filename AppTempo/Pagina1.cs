@@ -29,7 +29,7 @@ namespace AppTempo
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.MinimumSize = new System.Drawing.Size();
+            
         }
     }
 }
