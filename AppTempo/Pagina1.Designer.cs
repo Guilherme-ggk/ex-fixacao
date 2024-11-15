@@ -35,6 +35,8 @@
             this.txtresultado = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.pictureBoxWeather = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWeather)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -118,11 +120,20 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
+            // pictureBoxWeather
+            // 
+            this.pictureBoxWeather.Location = new System.Drawing.Point(406, 377);
+            this.pictureBoxWeather.Name = "pictureBoxWeather";
+            this.pictureBoxWeather.Size = new System.Drawing.Size(100, 50);
+            this.pictureBoxWeather.TabIndex = 8;
+            this.pictureBoxWeather.TabStop = false;
+            // 
             // Pagina1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 511);
+            this.Controls.Add(this.pictureBoxWeather);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtresultado);
@@ -135,6 +146,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Pagina1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWeather)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,5 +161,6 @@
         private System.Windows.Forms.TextBox txtresultado;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBoxWeather;
     }
 }

@@ -87,10 +87,35 @@ namespace AppTempo
                     string cityName = weatherData["name"]?.ToString();
                     string temp = weatherData["main"]["temp"]?.ToString();
                     string description = weatherData["weather"]?[0]?["description"]?.ToString();
+                    string mainWeather = weatherData["weather"]?[0]?["main"]?.ToString();
 
                     txtresultado.Text = $"Cidade: {cityName}\n" +
-                                        $"Temperatura: {temp} °C\n" +
-                                        $"lima: {description}";
+                                         $"Temperatura: {temp} °C\n" +
+                                         $"lima: {description}";
+                   
+
+                    // Escolha da imagem com base no clima
+                    if (mainWeather == "Clear")
+                       
+                    {
+                        
+                        pictureBoxWeather.Image = Properties.Resources.; // Imagem para céu limpo
+                    }
+                    else if (mainWeather == "Clouds" && description.Contains("broken clouds"))
+                    {
+                        pictureBoxWeather.Image = Properties.Resources.nuvens; // Imagem para nuvens quebradas
+                    }
+                    else if (mainWeather == "Rain")
+                    {
+                        pictureBoxWeather.Image = Properties.Resources.chuva; // Imagem para chuva
+                    }
+                    else
+                    {
+                        pictureBoxWeather.Image = Properties.Resources.padrao; // Imagem padrão
+                    }
+
+                    
+
                 }
                 catch (Exception ex)
                 {
@@ -119,6 +144,7 @@ namespace AppTempo
 
         private void txtresultado_TextChanged(object sender, EventArgs e)
         {
+            
 
         }
 
