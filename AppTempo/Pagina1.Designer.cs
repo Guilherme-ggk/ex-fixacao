@@ -122,9 +122,9 @@
             // 
             // pictureBoxWeather
             // 
-            this.pictureBoxWeather.Location = new System.Drawing.Point(406, 377);
+            this.pictureBoxWeather.Location = new System.Drawing.Point(406, 267);
             this.pictureBoxWeather.Name = "pictureBoxWeather";
-            this.pictureBoxWeather.Size = new System.Drawing.Size(100, 50);
+            this.pictureBoxWeather.Size = new System.Drawing.Size(263, 191);
             this.pictureBoxWeather.TabIndex = 8;
             this.pictureBoxWeather.TabStop = false;
             // 

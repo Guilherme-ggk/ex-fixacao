@@ -90,42 +90,44 @@ namespace AppTempo
                     string mainWeather = weatherData["weather"]?[0]?["main"]?.ToString();
 
                     txtresultado.Text = $"Cidade: {cityName}\n" +
-                                         $"Temperatura: {temp} °C\n" +
-                                         $"lima: {description}";
-                   
+                                        $"Temperatura: {temp} °C\n" +
+                                        $"Clima: {description}";
 
-                    // Escolha da imagem com base no clima
+                    // Lógica para exibir a imagem com base no clima
                     if (mainWeather == "Clear")
-                       
                     {
-                        
-                        pictureBoxWeather.Image = Properties.Resources.; // Imagem para céu limpo
+                        pictureBoxWeather.ImageLocation = @"Resourses\ceulimpo.png"; // Caminho para a imagem
                     }
-                    else if (mainWeather == "Clouds" && description.Contains("broken clouds"))
+                    else if (mainWeather == "Clouds")
                     {
-                        pictureBoxWeather.Image = Properties.Resources.nuvens; // Imagem para nuvens quebradas
+                        if (description.Contains("broken clouds"))
+                            pictureBoxWeather.ImageLocation = @"C:\Users\30755\OneDrive\Área de Trabalho\teste\ceulimpo.png"; // Caminho para a imagem
+                        else
+                            pictureBoxWeather.ImageLocation = @"C:\Users\30755\OneDrive\Área de Trabalho\teste\ceulimpo.png"; // Caminho para a imagem
                     }
                     else if (mainWeather == "Rain")
                     {
-                        pictureBoxWeather.Image = Properties.Resources.chuva; // Imagem para chuva
+                        pictureBoxWeather.ImageLocation = @"C:\Users\30755\OneDrive\Área de Trabalho\teste\ceulimpo.png"; // Caminho para a imagem
+                    }
+                    else if (mainWeather == "Snow")
+                    {
+                        pictureBoxWeather.ImageLocation = @"C:\Users\30755\OneDrive\Área de Trabalho\teste\ceulimpo.png"; // Caminho para a imagem
                     }
                     else
                     {
-                        pictureBoxWeather.Image = Properties.Resources.padrao; // Imagem padrão
+                        pictureBoxWeather.ImageLocation = @"C:\Users\30755\OneDrive\Área de Trabalho\teste\ceulimpo.png"; // Caminho para a imagem padrão
                     }
 
-                    
+                    MessageBox.Show("Dados carregados com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show($"Erro ao acessar a API: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-
-
             }
         }
-   
+
 
         private void label1_Click(object sender, EventArgs e)
         {
