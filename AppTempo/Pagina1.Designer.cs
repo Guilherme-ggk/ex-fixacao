@@ -34,7 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtresultado = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -58,7 +58,7 @@
             this.btntestetempo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntestetempo.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntestetempo.ForeColor = System.Drawing.SystemColors.Control;
-            this.btntestetempo.Location = new System.Drawing.Point(243, 187);
+            this.btntestetempo.Location = new System.Drawing.Point(863, 47);
             this.btntestetempo.Name = "btntestetempo";
             this.btntestetempo.Size = new System.Drawing.Size(121, 44);
             this.btntestetempo.TabIndex = 2;
@@ -68,55 +68,62 @@
             // 
             // txtCity
             // 
-            this.txtCity.Location = new System.Drawing.Point(217, 150);
+            this.txtCity.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCity.Location = new System.Drawing.Point(597, 106);
             this.txtCity.Name = "txtCity";
-            this.txtCity.Size = new System.Drawing.Size(186, 22);
+            this.txtCity.Size = new System.Drawing.Size(234, 27);
             this.txtCity.TabIndex = 3;
+            this.txtCity.TextChanged += new System.EventHandler(this.txtCity_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(96, 83);
+            this.label1.Location = new System.Drawing.Point(46, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(543, 27);
+            this.label1.Size = new System.Drawing.Size(544, 27);
             this.label1.TabIndex = 4;
-            this.label1.Text = "digite qual cidade deseja saber o tempo agora";
+            this.label1.Text = "Digite qual cidade deseja saber o tempo agora";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtresultado
             // 
-            this.txtresultado.Location = new System.Drawing.Point(234, 291);
+            this.txtresultado.Location = new System.Drawing.Point(174, 192);
             this.txtresultado.Name = "txtresultado";
             this.txtresultado.Size = new System.Drawing.Size(726, 22);
             this.txtresultado.TabIndex = 5;
+            this.txtresultado.TextChanged += new System.EventHandler(this.txtresultado_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(159, 294);
+            this.label2.Location = new System.Drawing.Point(73, 192);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 16);
             this.label2.TabIndex = 6;
             this.label2.Text = "resultado:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // button2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(145, 150);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 20);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "cidade:";
+            this.button2.BackColor = System.Drawing.Color.Salmon;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button2.Location = new System.Drawing.Point(1052, -2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(30, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "X";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // Pagina1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1291, 797);
-            this.Controls.Add(this.label3);
+            this.ClientSize = new System.Drawing.Size(1080, 511);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtresultado);
             this.Controls.Add(this.label1);
@@ -141,6 +148,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtresultado;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button2;
     }
 }
