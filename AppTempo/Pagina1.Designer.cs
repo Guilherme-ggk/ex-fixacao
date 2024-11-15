@@ -60,7 +60,7 @@
             this.btntestetempo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntestetempo.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntestetempo.ForeColor = System.Drawing.SystemColors.Control;
-            this.btntestetempo.Location = new System.Drawing.Point(863, 47);
+            this.btntestetempo.Location = new System.Drawing.Point(823, 47);
             this.btntestetempo.Name = "btntestetempo";
             this.btntestetempo.Size = new System.Drawing.Size(121, 44);
             this.btntestetempo.TabIndex = 2;
@@ -72,9 +72,9 @@
             // 
             this.txtCity.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCity.Location = new System.Drawing.Point(597, 106);
+            this.txtCity.Location = new System.Drawing.Point(609, 64);
             this.txtCity.Name = "txtCity";
-            this.txtCity.Size = new System.Drawing.Size(234, 27);
+            this.txtCity.Size = new System.Drawing.Size(193, 27);
             this.txtCity.TabIndex = 3;
             this.txtCity.TextChanged += new System.EventHandler(this.txtCity_TextChanged);
             // 
@@ -82,7 +82,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(46, 54);
+            this.label1.Location = new System.Drawing.Point(59, 47);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(544, 27);
             this.label1.TabIndex = 4;
@@ -91,7 +91,7 @@
             // 
             // txtresultado
             // 
-            this.txtresultado.Location = new System.Drawing.Point(174, 192);
+            this.txtresultado.Location = new System.Drawing.Point(179, 155);
             this.txtresultado.Name = "txtresultado";
             this.txtresultado.Size = new System.Drawing.Size(726, 22);
             this.txtresultado.TabIndex = 5;
@@ -100,7 +100,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(73, 192);
+            this.label2.Location = new System.Drawing.Point(107, 155);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 16);
             this.label2.TabIndex = 6;
@@ -122,9 +122,9 @@
             // 
             // pictureBoxWeather
             // 
-            this.pictureBoxWeather.Location = new System.Drawing.Point(406, 267);
+            this.pictureBoxWeather.Location = new System.Drawing.Point(381, 222);
             this.pictureBoxWeather.Name = "pictureBoxWeather";
-            this.pictureBoxWeather.Size = new System.Drawing.Size(263, 191);
+            this.pictureBoxWeather.Size = new System.Drawing.Size(320, 266);
             this.pictureBoxWeather.TabIndex = 8;
             this.pictureBoxWeather.TabStop = false;
             // 
