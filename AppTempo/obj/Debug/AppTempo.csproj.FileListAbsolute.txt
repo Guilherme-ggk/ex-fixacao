@@ -9,3 +9,6 @@ C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.exe
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.pdb
 C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.Pagina1.resources
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\30755\OneDrive\Área de Trabalho\ex-fixacao\AppTempo\obj\Debug\AppTempo.csproj.Up2Date
