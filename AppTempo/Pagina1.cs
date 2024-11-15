@@ -90,7 +90,7 @@ namespace AppTempo
 
                     txtresultado.Text = $"Cidade: {cityName}\n" +
                                         $"Temperatura: {temp} °C\n" +
-                                        $"Clima: {description}";
+                                        $"lima: {description}";
                 }
                 catch (Exception ex)
                 {
@@ -103,6 +103,11 @@ namespace AppTempo
    
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
