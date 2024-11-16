@@ -44,7 +44,7 @@
             this.btntestetempo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btntestetempo.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntestetempo.ForeColor = System.Drawing.SystemColors.Control;
-            this.btntestetempo.Location = new System.Drawing.Point(719, 280);
+            this.btntestetempo.Location = new System.Drawing.Point(719, 312);
             this.btntestetempo.Name = "btntestetempo";
             this.btntestetempo.Size = new System.Drawing.Size(121, 44);
             this.btntestetempo.TabIndex = 2;
@@ -106,7 +106,7 @@
             // 
             // pictureBoxWeather
             // 
-            this.pictureBoxWeather.Location = new System.Drawing.Point(318, 203);
+            this.pictureBoxWeather.Location = new System.Drawing.Point(312, 203);
             this.pictureBoxWeather.Name = "pictureBoxWeather";
             this.pictureBoxWeather.Size = new System.Drawing.Size(320, 280);
             this.pictureBoxWeather.TabIndex = 8;
