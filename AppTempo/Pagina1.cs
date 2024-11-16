@@ -96,7 +96,7 @@ namespace AppTempo
                     // Lógica para exibir a imagem com base no clima
                     if (mainWeather == "Clear")
                     {
-                        pictureBoxWeather.ImageLocation = @"Resourses\ceulimpo.png"; // Caminho para a imagem
+                        pictureBoxWeather.ImageLocation = @"C:\Users\30755\OneDrive\Área de Trabalho\teste\ceulimpo.png"; // Caminho para a imagem
                     }
                     else if (mainWeather == "Clouds")
                     {
@@ -153,6 +153,11 @@ namespace AppTempo
         private void button2_Click_1(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void pictureBoxWeather_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

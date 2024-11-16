@@ -127,6 +127,7 @@
             this.pictureBoxWeather.Size = new System.Drawing.Size(320, 280);
             this.pictureBoxWeather.TabIndex = 8;
             this.pictureBoxWeather.TabStop = false;
+            this.pictureBoxWeather.Click += new System.EventHandler(this.pictureBoxWeather_Click);
             // 
             // Pagina1
             // 
