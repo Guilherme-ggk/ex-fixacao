@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,37 +11,36 @@ namespace ConsoleApp4
 {
     internal class Program
     {
-        enum Menu { soma = 1, sub, mult, div, potencia, raiz, sair }
+        [Serializable]
+       struct Cliente
+        {
+            public string nome;
+        }
+        static List<Cliente> clientes = new List<Cliente>();
+
+        enum Menu { listagem = 1, adicionar, remover, sair }
 
         static void Main(string[] args)
         {
+            Carregar();
             bool EscolheuSair = false;
             while (!EscolheuSair)
             {
-                Console.WriteLine("Calculadora:");
-                Console.WriteLine("1-soma\n2-subtração\n3-multiplicação\n4-divisão\n5-potência\n6-raiz\n7-sair");
+                Console.WriteLine("Gestor de clientes");
+                Console.WriteLine("1-lista\n2-adicionar\n3-remover\n4-sair");
                 int intop = int.Parse(Console.ReadLine());
                 Menu opcao = (Menu)intop;
 
                 switch (opcao)
                 {
-                    case Menu.soma:
-                        Soma();
+                    case Menu.listagem:
+                        Lista();
                         break;
-                    case Menu.sub:
-                        Subtração();
+                    case Menu.adicionar:
+                        Adicionar();
                         break;
-                    case Menu.mult:
-                        Multiplicação();
-                        break;
-                    case Menu.div:
-                        Divisão();
-                        break;
-                    case Menu.potencia:
-                        Potencia();
-                        break;
-                    case Menu.raiz:
-                        Raiz();
+                    case Menu.remover:
+                        Remover();
                         break;
                     case Menu.sair:
                         EscolheuSair = true;
@@ -47,65 +48,71 @@ namespace ConsoleApp4
                 }
                 Console.Clear();
             }
+        }
+        static void Adicionar()
+        {
+            Cliente cliente = new Cliente();
+            Console.WriteLine("Digite o nome do cliente:");
+            cliente.nome = Console.ReadLine();
+            clientes.Add(cliente);
+            Salvar();
+        }
+        static void Remover()
+        {
+            Lista();
+            Console.WriteLine("Qual cliente deseja remover? (id)");
+            int id = int.Parse(Console.ReadLine());
+            if(id >= 0 && clientes.Count > id)
+            {
+                clientes.RemoveAt(id);
+                Salvar();
+            }
+        }
+        static void Lista()
+        {
+            if(clientes.Count > 0)
+            {
+                int id = 0;
+                foreach(Cliente cliente in clientes)
+                {
+                    Console.WriteLine($"ID: {id}");
+                    Console.WriteLine($"Nome: {cliente.nome}");
+                    id++;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Nenhum cliente cadastrado");
+            }
+            Console.ReadLine();
+        }
+        static void Salvar()
+        {
+            FileStream stream = new FileStream("clientes.dot", FileMode.OpenOrCreate);
+            BinaryFormatter encoder = new BinaryFormatter();
 
+            encoder.Serialize(stream, clientes);
+
+            stream.Close();
         }
-        static void Soma()
+        static void Carregar()
         {
-            Console.WriteLine("Digite o primeiro número:");
-            int n1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o segundo número:");
-            int n2 = int.Parse(Console.ReadLine());
-            int resultado = n1 + n2;
-            Console.WriteLine($"Resultado: {resultado}");
-            Console.ReadLine();
-        }
-        static void Subtração()
-        {
-            Console.WriteLine("Digite o primeiro número:");
-            int n1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o segundo número:");
-            int n2 = int.Parse(Console.ReadLine());
-            int resultado = n1 - n2;
-            Console.WriteLine($"Resultado: {resultado}");
-            Console.ReadLine();
-        }
-        static void Multiplicação()
-        {
-            Console.WriteLine("Digite o primeiro número:");
-            int n1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o segundo número:");
-            int n2 = int.Parse(Console.ReadLine());
-            int resultado = n1 * n2;
-            Console.WriteLine($"Resultado: {resultado}");
-            Console.ReadLine();
-        }
-        static void Divisão()
-        {
-            Console.WriteLine("Digite o primeiro número:");
-            int n1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o segundo número:");
-            int n2 = int.Parse(Console.ReadLine());
-            float resultado = (float)n1 + (float)n2;
-            Console.WriteLine($"Resultado: {resultado}");
-            Console.ReadLine();
-        }
-        static void Potencia()
-        {
-            Console.WriteLine("Digite o número base:");
-            int n1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o número expoente:");
-            int n2 = int.Parse(Console.ReadLine());
-            int resultado = (int)Math.Pow(n1, n2);
-            Console.WriteLine($"Resultado: {resultado}");
-            Console.ReadLine();
-        }
-        static void Raiz()
-        {
-            Console.WriteLine("Digite o número que deseja saber a raiz:");
-            int r = int.Parse(Console.ReadLine());
-            int resultado = (int)Math.Sqrt(r);
-            Console.WriteLine($"Resultado: {resultado}");
-            Console.ReadLine();
+            FileStream stream = new FileStream("clientes.dot", FileMode.OpenOrCreate);
+            try
+            {
+                BinaryFormatter encoder = new BinaryFormatter();
+
+                clientes = (List<Cliente>)encoder.Deserialize(stream);
+                if(clientes == null)
+                {
+                    clientes = new List<Cliente>();
+                }
+            }
+            catch (Exception) 
+            {
+                clientes = new List<Cliente>();
+            }
+            stream.Close();
         }
     }
 }
