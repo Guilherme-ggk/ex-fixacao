@@ -59,6 +59,7 @@
             this.BtnSair.TabIndex = 4;
             this.BtnSair.Text = "sair";
             this.BtnSair.UseVisualStyleBackColor = true;
+            this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
             // 
             // BtnDados
             // 
@@ -69,6 +70,7 @@
             this.BtnDados.TabIndex = 3;
             this.BtnDados.Text = "dados";
             this.BtnDados.UseVisualStyleBackColor = true;
+            this.BtnDados.Click += new System.EventHandler(this.BtnDados_Click);
             // 
             // BtnHome
             // 

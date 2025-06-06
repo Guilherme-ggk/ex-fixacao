@@ -11,3 +11,16 @@ C:\Users\Guilherme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Wind
 C:\Users\Guilherme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
 C:\Users\Guilherme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmCadastro.resources
 C:\Users\Guilherme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmDados.resources
+C:\TI\ex-fixacao\Cruds\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\TI\ex-fixacao\Cruds\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\TI\ex-fixacao\Cruds\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\TI\ex-fixacao\Cruds\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\TI\ex-fixacao\Cruds\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+C:\TI\ex-fixacao\Cruds\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\TI\ex-fixacao\Cruds\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmCadastro.resources
+C:\TI\ex-fixacao\Cruds\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmDados.resources
+C:\TI\ex-fixacao\Cruds\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\TI\ex-fixacao\Cruds\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\TI\ex-fixacao\Cruds\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\TI\ex-fixacao\Cruds\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\TI\ex-fixacao\Cruds\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
