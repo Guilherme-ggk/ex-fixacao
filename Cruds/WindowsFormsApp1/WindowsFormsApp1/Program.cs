@@ -11,6 +11,9 @@ namespace WindowsFormsApp1
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
+
+        static public string sistema = "Livraria ABC";
+
         [STAThread]
         static void Main()
         {
