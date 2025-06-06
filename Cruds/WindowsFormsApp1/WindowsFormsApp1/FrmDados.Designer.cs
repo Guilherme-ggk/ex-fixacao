@@ -60,6 +60,7 @@
             this.BtnAdicionar.TabIndex = 2;
             this.BtnAdicionar.Text = "ADICIONAR";
             this.BtnAdicionar.UseVisualStyleBackColor = true;
+            this.BtnAdicionar.Click += new System.EventHandler(this.BtnAdicionar_Click);
             // 
             // TxtBuscar
             // 
@@ -85,6 +86,7 @@
             this.BtnAlterar.TabIndex = 5;
             this.BtnAlterar.Text = "ALTERAR";
             this.BtnAlterar.UseVisualStyleBackColor = true;
+            this.BtnAlterar.Click += new System.EventHandler(this.BtnAlterar_Click);
             // 
             // BtnExcluir
             // 
@@ -94,6 +96,7 @@
             this.BtnExcluir.TabIndex = 6;
             this.BtnExcluir.Text = "EXCLUIR";
             this.BtnExcluir.UseVisualStyleBackColor = true;
+            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
             // 
             // BtnImprimir
             // 
@@ -112,6 +115,7 @@
             this.BtnBuscar.TabIndex = 8;
             this.BtnBuscar.Text = "BUSCAR";
             this.BtnBuscar.UseVisualStyleBackColor = true;
+            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
             // FrmDados
             // 

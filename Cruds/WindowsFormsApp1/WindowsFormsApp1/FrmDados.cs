@@ -16,5 +16,36 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void BtnAdicionar_Click(object sender, EventArgs e)
+        {
+            using (var frm = new FrmCadastro())
+            {
+                frm.ShowDialog();
+            }
+        }
+
+        private void BtnAlterar_Click(object sender, EventArgs e)
+        {
+            var id = Convert.ToInt32(DgvLivros.Rows[DgvLivros.CurrentCell.RowIndex].Cells["id"].Value);
+            using (var frm = new FrmCadastro())
+            {
+                frm.ShowDialog();
+            }
+        }
+
+        private void BtnExcluir_Click(object sender, EventArgs e)
+        {
+            var id = Convert.ToInt32(DgvLivros.Rows[DgvLivros.CurrentCell.RowIndex].Cells["id"].Value);
+            using (var frm = new FrmCadastro())
+            {
+                frm.ShowDialog();
+            }
+        }
+
+        private void BtnBuscar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
