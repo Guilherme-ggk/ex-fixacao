@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\ti\\ex-fixacao\\cruds\\windowsformsapp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -54,8 +54,7 @@
               "ToolTip": "C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\WindowsFormsApp1\\FrmDados.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp1\\FrmDados.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T22:17:28.592Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-06T22:17:28.592Z"
             },
             {
               "$type": "Document",
@@ -66,8 +65,7 @@
               "ToolTip": "C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\WindowsFormsApp1\\FrmCadastro.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp1\\FrmCadastro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T22:11:06.348Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-06T22:11:06.348Z"
             },
             {
               "$type": "Document",
@@ -79,8 +77,7 @@
               "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
               "ViewState": "AgIAACUAAAAAAAAAAADwv0AAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T18:29:59.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T18:29:59.809Z"
             },
             {
               "$type": "Document",
@@ -91,8 +88,7 @@
               "ToolTip": "C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T15:34:42.85Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-03T15:34:42.85Z"
             }
           ]
         }
