@@ -11,7 +11,7 @@ namespace WindowsFormsApp1
         private const string Servidor = "localhost";
         private const string BancoDados = "livros";
         private const string Usuario = "root";
-        private const string Senha = "@Guilherme0830755";
+        private const string Senha = "0830755@Guilherme";
 
         static public string StrConn = $"server={Servidor};database={BancoDados};user id={Usuario};password={Senha}";
     }

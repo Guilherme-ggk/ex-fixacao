@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\ti\\ex-fixacao\\cruds\\windowsformsapp1\\windowsformsapp1\\conn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\conn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\windowsformsapp1\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\windowsformsapp1\\frmdados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\frmdados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\windowsformsapp1\\frmdados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\frmdados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\ti\\ex-fixacao\\cruds\\windowsformsapp1\\windowsformsapp1\\frmdados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\frmdados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\windowsformsapp1\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC4E039B-C860-4A8D-8C02-A7245E1D184A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -30,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
               "ToolTip": "C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
               "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAswCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T18:29:59.809Z",
               "IsPinned": true,
@@ -48,7 +52,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Conn.cs",
+              "DocumentMoniker": "C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\WindowsFormsApp1\\Conn.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Conn.cs",
+              "ToolTip": "C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\WindowsFormsApp1\\Conn.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Conn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:34:26.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FrmDados.cs",
               "DocumentMoniker": "C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\WindowsFormsApp1\\FrmDados.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\FrmDados.cs",
@@ -61,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FrmDados.cs [Design]",
               "DocumentMoniker": "C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\WindowsFormsApp1\\FrmDados.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\FrmDados.cs",
@@ -73,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FrmCadastro.cs [Design]",
               "DocumentMoniker": "C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\WindowsFormsApp1\\FrmCadastro.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\FrmCadastro.cs",
@@ -85,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\TI\\ex-fixacao\\Cruds\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
